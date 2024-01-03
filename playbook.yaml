@@ -15,20 +15,9 @@
     - webtest
   user: devops
   become: true
-  vars:
-    config:
-      default:
-        port: 80
-        servername: "{{ ansible_fqdn }}:80"
-      web1: 
-        port: 80
-        servername: web1.example.com
-      web2:
-        port: 80
-        servername: web2.example.com
-      webtest:
-        port: 80
-        servername: webtest.example.com
+  vars_files:
+    - "config.yaml"
+
   handlers:
     - name: "restart_httpd"
       service:
