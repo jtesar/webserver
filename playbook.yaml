@@ -1,0 +1,68 @@
+- hosts:
+    - web1
+    - web2
+    - web3
+    - webtest
+  user: devops
+  become: true
+  gather_facts: false
+  tasks:
+    - name: "Set correct hostname"
+      shell: "hostname {{ inventory_hostname }}.example.com"
+
+
+- hosts:
+    - webtest
+  user: devops
+  become: true
+  vars:
+    config:
+      default:
+        port: 80
+        servername: "{{ ansible_fqdn }}:80"
+      web1: 
+        port: 80
+        servername: web1.example.com
+      web2:
+        port: 80
+        servername: web2.example.com
+      webtest:
+        port: 80
+        servername: webtest.example.com
+  handlers:
+    - name: "restart_httpd"
+      service:
+        name: "httpd"
+        state: "restarted"
+  tasks:
+    - name: "Make sure appache is installed"
+      package:
+        name: "httpd"
+        state: "present"
+    - name: "Deploy configuration file"
+      template:
+        src: httpd.conf.j2
+        dest: /etc/httpd/conf/httpd.conf
+      notify: "restart_httpd"
+    - name: "Put webserver content in place"
+      copy:
+        src: "content/{{ inventory_hostname }}/"
+        dest: "/var/www/html/"
+    - name: "Open firewall"
+      ansible.posix.firewalld:
+        port: "{{ config[inventory_hostname].port }}/tcp"
+        state: "enabled"
+      when: "config[inventory_hostname].port is defined"
+
+    - name: "Open firewall"
+      ansible.posix.firewalld:
+        port: "80/tcp"
+        state: "enabled"
+      when: "config[inventory_hostname].port is not defined"
+
+    - name: "Start the service"
+      service:
+        name: "httpd"
+        enabled: true
+        state: "started"
+
