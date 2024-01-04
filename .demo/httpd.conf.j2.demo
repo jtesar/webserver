@@ -1,3 +1,4 @@
+--
 #
 # This is the main Apache HTTP server configuration file.  It contains the
 # configuration directives that give the server its instructions.
@@ -43,12 +44,14 @@ ServerRoot "/etc/httpd"
 #
 #Listen 12.34.56.78:80
 
-
+Listen 80
+--
 {% if config[inventory_hostname] is defined %} 
 Listen {{ config[ansible_hostname].port }}
 {% else %}
 Listen 80
 {% endif %}
+--
 #
 # Dynamic Shared Object (DSO) Support
 #
@@ -100,12 +103,15 @@ ServerAdmin root@localhost
 #
 # If your host doesn't have a registered DNS name, enter its IP address here.
 #
+
+ServerName localhost:80
+--
 {% if config[ansible_hostname] is defined %}
 ServerName {{ config[inventory_hostname].servername }}:{{ config[inventory_hostname].port }}
 {% else %}
 ServerName {{ ansible_fqdn }}:80
 {% endif %}
-
+--
 #
 # Deny access to the entirety of your server's filesystem. You must
 # explicitly permit access to web content directories in other 
@@ -363,3 +369,5 @@ EnableSendfile on
 #
 # Load config files in the "/etc/httpd/conf.d" directory, if any.
 IncludeOptional conf.d/*.conf
+--
+----
