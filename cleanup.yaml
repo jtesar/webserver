@@ -1,9 +1,5 @@
 - name: "Remove and cleanup"
-  hosts:
-    - "web1"
-    - "web2"
-    - "web3"
-    - "web4"
+  hosts: "all"
   user: "devops"
   become: true
   become_user: "root"
