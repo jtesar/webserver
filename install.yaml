@@ -7,9 +7,6 @@
   vars_files:
     - "config.yaml"
   tasks:
-    - set_fact:
-       ansible_play_hosts:
-         - web2
 
     - debug:
         var: ansible_play_hosts
@@ -34,6 +31,5 @@
     - set_stats:
         aggregate: false
         data:
-           failed_hosts:
-                   - web2
+           failed_hosts: "{{ ansible_play_hosts_all | difference(ansible_play_hosts) }}"
       run_once: true
