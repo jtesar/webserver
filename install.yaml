@@ -33,4 +33,5 @@
         aggregate: false
         data:
           failed_hosts: "{{ ansible_play_hosts_all | difference(ansible_play_hosts) }}"
+          installed_hosts: "{{ ansible_play_hosts }}"
       run_once: true

@@ -1,5 +1,15 @@
+- name: "Add installed hosts"
+  hosts: "localhost"
+  gather_facts: false
+  tasks:
+    - add_host:
+         name: "{{ item }}"
+         group: "installed_hosts"
+      loop: "{{ installed_hosts | default([]) }}"
+
+
 - name: "Configure the apache webserver"
-  hosts: "all"
+  hosts: "installed_hosts"
   user: "devops"
   become: true
   become_user: "root"
