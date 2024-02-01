@@ -1,0 +1,35 @@
+- name: "Configure the apache webserver"
+  hosts:
+    - "web1"
+    - "web2"
+    - "web3"
+    - "web4"
+  user: "devops"
+  become: true
+  become_user: "root"
+  become_method: "sudo"
+  vars_files:
+    - "config.yaml"
+  tasks:
+    - name: "Deploy configuration file"
+      ansible.builtin.template:
+        src: "httpd.conf.j2"
+        dest: "/etc/httpd/conf/httpd.conf"
+
+    - name: "Put webserver content in place"
+      ansible.builtin.copy:
+        src: "content/{{ inventory_hostname }}/"
+        dest: "/var/www/html/"
+
+
+    - name: "Start the service"
+      ansible.builtin.service:
+        name: "httpd"
+        enabled: true
+        state: "started"
+
+  handlers:
+    - name: "restart_httpd"
+      ansible.builtin.service:
+        name: "httpd"
+        state: "restarted"

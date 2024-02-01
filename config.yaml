@@ -6,7 +6,7 @@ config:
     port: 80
     servername: "web1.example.com"
   web2:
-    port: 80
+    port: 8080
     servername: "web2.example.com"
 
 

@@ -1,0 +1,30 @@
+- name: "Install teh apache webserver"
+  hosts:
+    - "web1"
+    - "web2"
+    - "web3"
+    - "web4"
+  user: "devops"
+  become: true
+  become_user: "root"
+  become_method: "sudo"
+  vars_files:
+    - "config.yaml"
+  tasks:
+    - name: "Make sure appache is installed"
+      ansible.builtin.package:
+        name: "httpd"
+        state: "latest"
+
+    - name: "Open firewall"
+      ansible.posix.firewalld:
+        port: "{{ config[inventory_hostname].port }}/tcp"
+        state: "enabled"
+      when: "config[inventory_hostname].port is defined"
+
+    - name: "Open firewall"
+      ansible.posix.firewalld:
+        port: "80/tcp"
+        state: "enabled"
+      when: "config[inventory_hostname].port is not defined"
+
