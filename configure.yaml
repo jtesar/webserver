@@ -24,6 +24,11 @@
         enabled: true
         state: "started"
 
+    - name: "Set success state"
+      ansible.builtin.file:
+        path: "/var/run/web_install_success"
+        state: "touch"
+
   handlers:
     - name: "restart_httpd"
       ansible.builtin.service:

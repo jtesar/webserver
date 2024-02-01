@@ -8,36 +8,43 @@
   vars_files:
     - "config.yaml"
   tasks:
-    - name: "Stop the apache webserver"
-      service:
-        name: "httpd"
-        state: "stopped"
-        enabled: false
+    - name: "Check success"
+      ansible.builtin.stat:
+        path: "/var/run/web_install_success"
+      register: "result"
 
-    - name: "Remove the apache web server"
-      ansible.builtin.package:
-        name: "httpd"
-        state: "absent"
+    - when: "not result.stat.exists"
+      block: 
+      - name: "Stop the apache webserver"
+        service:
+          name: "httpd"
+          state: "stopped"
+          enabled: false
 
-    - name: "Close firewall"
-      ansible.posix.firewalld:
-        port: "{{ config[inventory_hostname].port }}/tcp"
-        state: "disabled"
-        immediate: true
-        permanent: true
+      - name: "Remove the apache web server"
+        ansible.builtin.package:
+          name: "httpd"
+          state: "absent"
 
-      when: "config[inventory_hostname].port is defined"
+      - name: "Close firewall"
+        ansible.posix.firewalld:
+          port: "{{ config[inventory_hostname].port }}/tcp"
+          state: "disabled"
+          immediate: true
+          permanent: true
 
-    - name: "Close firewall"
-      ansible.posix.firewalld:
-        port: "80/tcp"
-        state: "disabled"
-        immediate: true
-        permanent: true
-      when: "config[inventory_hostname].port is not defined"
+        when: "config[inventory_hostname].port is defined"
 
-    - name: "Remove content"
-      file:
-        state: "absent"
-        path: "/var/www/html"
+      - name: "Close firewall"
+        ansible.posix.firewalld:
+          port: "80/tcp"
+          state: "disabled"
+          immediate: true
+          permanent: true
+        when: "config[inventory_hostname].port is not defined"
+
+      - name: "Remove content"
+        file:
+          state: "absent"
+          path: "/var/www/html"
 
