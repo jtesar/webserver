@@ -34,7 +34,7 @@
         path: "/var/run/web_install_success"
         state: "touch"
 
-   - name: "Get failed hosts"
+    - name: "Get failed hosts"
       set_stats:
         aggregate: false
         data:
