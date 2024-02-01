@@ -11,7 +11,7 @@
     - debug:
          var: failed_hosts
 
-    - add_hosts:
+    - add_host:
          name: "{{ item }}"
          group: "failed_hosts"
       loop: "{{ failed_hosts }}"
