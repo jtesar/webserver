@@ -7,6 +7,13 @@
   vars_files:
     - "config.yaml"
   tasks:
+    - set_fact:
+       ansible_play_hosts:
+         - web2
+
+    - debug:
+        var: ansible_play_hosts
+
     - name: "Make sure appache is installed"
       ansible.builtin.package:
         name: "httpd"
@@ -24,3 +31,7 @@
         state: "enabled"
       when: "config[inventory_hostname].port is not defined"
 
+    - set_stats:
+        data:
+           failed_hosts:
+                   - web2

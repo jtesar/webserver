@@ -8,6 +8,9 @@
   vars_files:
     - "config.yaml"
   tasks:
+    - debug:
+         var: failed_hosts
+
     - name: "Check success"
       ansible.builtin.stat:
         path: "/var/run/web_install_success"
