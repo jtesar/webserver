@@ -1,5 +1,5 @@
 - name: "Remove and cleanup"
-  hosts: "all"
+  hosts: "failed_hosts"
   user: "devops"
   become: true
   become_user: "root"
@@ -10,6 +10,12 @@
   tasks:
     - debug:
          var: failed_hosts
+
+    - add_hosts:
+         name: "{{ item }}"
+         group: "failed_hosts"
+       loop: "{{ failed_hosts }}"
+
 
     - name: "Check success"
       ansible.builtin.stat:
