@@ -32,6 +32,8 @@
       when: "config[inventory_hostname].port is not defined"
 
     - set_stats:
+        aggregate: false
         data:
            failed_hosts:
                    - web2
+      run_once: true
