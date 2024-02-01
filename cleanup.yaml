@@ -16,21 +16,7 @@
   ignore_errors: true
   vars_files:
     - "config.yaml"
-
-
-    - name: "Check success"
-      ansible.builtin.stat:
-        path: "/var/run/web_install_success"
-      register: "result"
-    
-    - name: "Remove the check"
-      ansible.builtin.file:
-        path: "/var/run/web_install_success"
-        state: "absent"
-   
-
-    - when: "not result.stat.exists"
-      block: 
+  tasks:
       - name: "Stop the apache webserver"
         service:
           name: "httpd"
