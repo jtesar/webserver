@@ -28,8 +28,9 @@
         state: "enabled"
       when: "config[inventory_hostname].port is not defined"
 
-    - set_stats:
+    - name: "Get failed hosts"
+      set_stats:
         aggregate: false
         data:
-           failed_hosts: "{{ ansible_play_hosts_all | difference(ansible_play_hosts) }}"
+          failed_hosts: "{{ ansible_play_hosts_all | difference(ansible_play_hosts) }}"
       run_once: true

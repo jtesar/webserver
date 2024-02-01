@@ -34,6 +34,14 @@
         path: "/var/run/web_install_success"
         state: "touch"
 
+   - name: "Get failed hosts"
+      set_stats:
+        aggregate: false
+        data:
+          failed_hosts: "{{ ansible_play_hosts_all | difference(ansible_play_hosts) }}"
+      run_once: true
+        
+
   handlers:
     - name: "restart_httpd"
       ansible.builtin.service:

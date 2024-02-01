@@ -5,7 +5,7 @@
     - add_host:
          name: "{{ item }}"
          group: "failed_hosts"
-      loop: "{{ failed_hosts }}"
+      loop: "{{ failed_hosts | default([]) }}"
 
 - name: "Remove and cleanup"
   hosts: "failed_hosts"
