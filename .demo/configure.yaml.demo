@@ -1,11 +1,16 @@
 --
-- name: "Install and configure webserver"
-  hosts:
-    - "web1"
-    - "web2"
-    - "web3"
-    - "web4"
+- name: "Add installed hosts"
+  hosts: "localhost"
+  gather_facts: false
+  tasks:
+    - include_tasks: "add_hosts.yaml"
+      vars:
+        group_name: "hosts_to_configure"
+        host_list: "{{ successfull_hosts }}"
 --
+
+- name: "Configure the apache webserver"
+  hosts: "hosts_to_configure"
   user: "devops"
   become: true
   become_user: "root"
@@ -14,13 +19,7 @@
     - "config.yaml"
 --
   tasks:
---
-    - name: "Make sure appache is installed"
-      ansible.builtin.package:
-        name: "httpd"
-        state: "present"
---
-
+  - block:
     - name: "Deploy configuration file"
       ansible.builtin.template:
         src: "httpd.conf.j2"
@@ -33,21 +32,6 @@
         dest: "/var/www/html/"
 --
 
-    - name: "Open firewall"
-      ansible.posix.firewalld:
-        port: "{{ config[inventory_hostname].port }}/tcp"
-        state: "enabled"
-      when: "config[inventory_hostname].port is defined"
---
-
-
-    - name: "Open firewall"
-      ansible.posix.firewalld:
-        port: "80/tcp"
-        state: "enabled"
-      when: "config[inventory_hostname].port is not defined"
---
-
     - name: "Start the service"
       ansible.builtin.service:
         name: "httpd"
@@ -55,8 +39,14 @@
         state: "started"
 --
 
-  handlers:
+    always:
+      - include_tasks: "get_result.yaml"
+        vars:
+          stage: "configuration"
+        
 --
+
+  handlers:
     - name: "restart_httpd"
       ansible.builtin.service:
         name: "httpd"

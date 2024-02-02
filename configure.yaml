@@ -7,7 +7,6 @@
         group_name: "hosts_to_configure"
         host_list: "{{ successfull_hosts }}"
 
-
 - name: "Configure the apache webserver"
   hosts: "hosts_to_configure"
   user: "devops"
@@ -28,17 +27,11 @@
         src: "content/{{ inventory_hostname }}/"
         dest: "/var/www/html/"
 
-
     - name: "Start the service"
       ansible.builtin.service:
         name: "httpd"
         enabled: true
         state: "started"
-
-    - name: "Set success state"
-      ansible.builtin.file:
-        path: "/var/run/web_install_success"
-        state: "touch"
 
     always:
       - include_tasks: "get_result.yaml"
