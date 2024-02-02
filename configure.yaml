@@ -7,8 +7,8 @@
          group: "hosts_to_configure"
       loop: "{{ successfull_hosts | default([]) }}"
 
-  - fail:
-    when: "successfull_hosts|length == 0"
+    - fail:
+      when: "successfull_hosts|length == 0"
 
 
 - name: "Configure the apache webserver"
