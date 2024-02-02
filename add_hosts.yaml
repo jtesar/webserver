@@ -1,0 +1,6 @@
+- name: "Add hosts"
+  add_host:
+     name: "{{ item }}"
+     group: "{{ group_name }}"
+  loop: "{{ host_list | default([]) }}"
+

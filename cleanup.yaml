@@ -2,10 +2,10 @@
   hosts: "localhost"
   gather_facts: false
   tasks:
-    - add_host:
-         name: "{{ item }}"
-         group: "hosts_to_cleanup"
-      loop: "{{ failed_hosts | default([]) }}"
+    - include_tasks: "add_hosts.yaml"
+      vars:
+        group_name: "hosts_to_cleanup"
+        host_list: "{{ failed_hosts }}"
 
 - name: "Remove and cleanup"
   hosts: "hosts_to_cleanup"

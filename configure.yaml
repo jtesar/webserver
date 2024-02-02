@@ -2,13 +2,10 @@
   hosts: "localhost"
   gather_facts: false
   tasks:
-    - add_host:
-         name: "{{ item }}"
-         group: "hosts_to_configure"
-      loop: "{{ successfull_hosts | default([]) }}"
-
-    - fail:
-      when: "successfull_hosts|length == 0"
+    - include_tasks: "add_hosts.yaml"
+      vars:
+        group_name: "hosts_to_configure"
+        host_list: "{{ successfull_hosts }}"
 
 
 - name: "Configure the apache webserver"
