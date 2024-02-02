@@ -34,4 +34,4 @@
           successfull_hosts: "{{ ansible_play_hosts }}"
           message: "Installation result"
       run_once: true
-          delegate_to: "localhost"
+      delegate_to: "localhost"
