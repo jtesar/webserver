@@ -44,15 +44,9 @@
         state: "touch"
 
     always:
-    - name: "Get configuration result"
-      set_stats:
-        aggregate: false
-        data:
-          failed_hosts: "{{ ansible_play_hosts_all | difference(ansible_play_hosts) }}"
-          successfull_hosts: "{{ ansible_play_hosts }}"
-          message: "Configuration result"
-      run_once: true
-      delegate_to: "localhost"
+      - include_tasks: "get_result.yaml"
+        vars:
+          stage: "configuration"
         
 
   handlers:

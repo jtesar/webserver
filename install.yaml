@@ -26,12 +26,7 @@
       when: "config[inventory_hostname].port is not defined"
 
     always:
-    - name: "Get installation result"
-      set_stats:
-        aggregate: false
-        data:
-          failed_hosts: "{{ ansible_play_hosts_all | difference(ansible_play_hosts) }}"
-          successfull_hosts: "{{ ansible_play_hosts }}"
-          message: "Installation result"
-      run_once: true
-      delegate_to: "localhost"
+      - include_tasks: "get_result.yaml"
+        vars:
+          stage: "installation"
+
