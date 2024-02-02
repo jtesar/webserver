@@ -4,12 +4,12 @@
   tasks:
     - add_host:
          name: "{{ item }}"
-         group: "installed_hosts"
-      loop: "{{ installed_hosts | default([]) }}"
+         group: "hosts_to_configure"
+      loop: "{{ successfull_hosts | default([]) }}"
 
 
 - name: "Configure the apache webserver"
-  hosts: "installed_hosts"
+  hosts: "hosts_to_configure"
   user: "devops"
   become: true
   become_user: "root"

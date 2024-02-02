@@ -4,11 +4,11 @@
   tasks:
     - add_host:
          name: "{{ item }}"
-         group: "failed_hosts"
+         group: "hosts_to_cleanup"
       loop: "{{ failed_hosts | default([]) }}"
 
 - name: "Remove and cleanup"
-  hosts: "failed_hosts"
+  hosts: "hosts_to_cleanup"
   user: "devops"
   become: true
   become_user: "root"
