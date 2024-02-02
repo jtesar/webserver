@@ -39,7 +39,7 @@
         path: "/var/run/web_install_success"
         state: "touch"
 
-    - name: "Get failed hosts"
+    - name: "Get configuration result"
       set_stats:
         aggregate: false
         data:
@@ -47,6 +47,7 @@
           successfull_hosts: "{{ ansible_play_hosts }}"
           message: "Configuration result"
       run_once: true
+      delegate_to: "localhost"
         
 
   handlers:

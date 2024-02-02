@@ -28,7 +28,7 @@
         state: "enabled"
       when: "config[inventory_hostname].port is not defined"
 
-    - name: "Get failed hosts"
+    - name: "Get installation result"
       set_stats:
         aggregate: false
         data:
@@ -36,3 +36,4 @@
           successfull_hosts: "{{ ansible_play_hosts }}"
           message: "Installation result"
       run_once: true
+      delegate_to: "localhost"
