@@ -7,7 +7,7 @@
   vars_files:
     - "config.yaml"
   tasks:
-
+  - block:
     - debug:
         var: ansible_play_hosts
 
@@ -28,6 +28,7 @@
         state: "enabled"
       when: "config[inventory_hostname].port is not defined"
 
+    always:
     - name: "Get installation result"
       set_stats:
         aggregate: false
