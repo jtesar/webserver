@@ -34,4 +34,5 @@
         data:
           failed_hosts: "{{ ansible_play_hosts_all | difference(ansible_play_hosts) }}"
           installed_hosts: "{{ ansible_play_hosts }}"
+          message: "Installation result"
       run_once: true
