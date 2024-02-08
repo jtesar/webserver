@@ -1,0 +1,2580 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+        <script>performance.mark('HEAD Start');</script>
+    <link rel="preconnect" href="https://static.redhat.com">
+    <script id="rhdc_analytics_get_top_eddl_js" type="text/javascript">var pageData = {"pageCategory":"summit","pageName":"rh|summit","pageTitle":"Red Hat Summit 2024 Homepage","pageType":"page","pageSubType":"Hub","siteExperience":"","siteLanguage":"en","subsection":"","subsection2":"","subsection3":"","cms":"RH CMS 1.0","analyticsTitle":"","contentID":"742961","contentType":"","destinationURL":"https:\/\/www.redhat.com\/en\/summit","gated":"false","offerID":"","errorType":"","contentPublishDate":"2024-02-07","siteName":"rh","dataObject":"digitalData","taxonomyRegion":["4521"],"taxonomySubType":["4641"],"pageStatus":"published"};!function(e,a){"use strict";e.appEventData=e.appEventData||[],e.pageData=e.pageData||[];var t={event:"Page Load Started",page:pageData};if(a.referrer){var r=a.createElement("a");r.href=a.referrer,t.page.previousPage=r.href}t.page.siteExperience=e.innerWidth<=768?"tablet":"desktop",appEventData.push(t)}(window,document);</script>
+<script id="ddo" type="text/javascript">digitalData = {"cart":[],"event":[],"listing":{"browseFilter":"","query":"","queryMethod":"","refinementType":"","refinementValue":"","resultCount":"","searchType":""},"page":{"attributes":{"queryParameters":"","referringSearchEngine":"","analyticsTitle":"","taxonomyRegion":["4521"],"taxonomySubType":["4641"]},"category":{"contentType":"","keyPage":"false","keyPageType":"","pageType":"page","primaryCategory":"summit","subCategories":[]},"pageInfo":{"cms":"RH CMS 1.0","contentFindingMethod":"","contentID":"742961","contentPortal":"","destinationURL":"https:\/\/www.redhat.com\/en\/summit","errorMessage":"","errorType":"","language":"en","pageName":"","referringDomain":"","referringURL":"","sysEnv":"","template":"","title":"Summit 2024 | Homepage"}},"product":[],"user":[{"profile":[{"profileInfo":{"daysSinceLastPurchase":"","demandbaseSID":"","eloquaGUID":"","lastLoginDate":"","lastPurchaseDate":"","loggedIn":"false","profileID":"","subscriptionFrequency":"","subscriptionLevel":""}}]}]};!function(e,a,r){"use strict";function n(e){var r=("; "+a.cookie).split("; "+e+"=");if(2===r.length)return r.pop().split(";").shift()}if(a.referrer){var t=a.createElement("a");t.href=a.referrer,r.page.pageInfo.referringDomain=t.hostname,r.page.pageInfo.referringURL=t.href}r.page.pageInfo.sysEnv=e.innerWidth<=768?"tablet":"desktop";var i=r.user[0].profile[0].profileInfo,o=n("rh_elqCustomerGUID");o&&(i.eloquaGUID=o);var f=n("rh_user");f&&f.split("\\|")[0]&&(i.loggedIn="true");var s=n("s_dmdbase");s&&(i.demandbaseSID=s)}(window,document,digitalData);</script>
+<script id="dpal" type="text/javascript" src="https://www.redhat.com/dtm.js"></script>
+<script id="trustarc" type="text/javascript" src="https://static.redhat.com/libs/redhat/marketing/latest/trustarc/trustarc.js"></script>
+<script src="https://static.redhat.com/libs/redhat/marketing/latest/trustarc/trustecm/js/trustecm.js" data-domain="www.redhat.com"></script>
+<script class="trustecm" data-src="https://static.redhat.com/libs/redhat/marketing/latest/trustarc/trustecm/js/trustecm-functional.js" data-tracker-type="functional"></script>
+<script class="trustecm" data-src="https://static.redhat.com/libs/redhat/marketing/latest/trustarc/trustecm/js/trustecm-advertising.js" data-tracker-type="advertising"></script>
+<meta charset="utf-8" />
+<meta name="description" content="Red Hat Summit is the premier enterprise open source event for IT professionals to learn, collaborate, and innovate on technologies." />
+<link rel="canonical" href="https://www.redhat.com/en/summit" />
+<link rel="image_src" href="https://www.redhat.com/rhdc/managed-files/Summit2024-OG-1200x675.png" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.redhat.com/en/summit" />
+<meta property="og:title" content="Red Hat Summit 2024 Homepage" />
+<meta property="og:description" content="Red Hat Summit is the premier enterprise open source event for IT professionals to learn, collaborate, and innovate on technologies." />
+<meta property="og:image" content="https://www.redhat.com/rhdc/managed-files/Summit2024-OG-1200x675.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Red Hat Summit is the premier enterprise open source event for IT professionals to learn, collaborate, and innovate on technologies." />
+<meta name="twitter:title" content="Red Hat Summit 2024 Homepage" />
+<meta name="twitter:url" content="https://www.redhat.com/en/summit" />
+<meta name="twitter:image" content="https://www.redhat.com/rhdc/managed-files/Summit2024-OG-1200x675.png" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="content-language" content="en" />
+<meta name="last-publish-date" content="Wed, 07 Feb 2024 17:30:26 GMT" />
+<meta name="node-type" content="page" />
+<meta name="source" content="rhdc_drupal" />
+<meta name="rhdc_key" content="80ba96cf2bed6d2526f495e241394a20" />
+<meta name="taxonomy-region" content="Global" />
+<meta name="taxonomy-region-tid" content="4521" />
+<meta name="taxonomy-sub-type" content="Hub" />
+<meta name="taxonomy-sub-type-tid" content="4641" />
+<meta name="source_title" content="Red Hat Summit 2024 Homepage" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="alternate" hreflang="en" href="https://www.redhat.com/en/summit" />
+<link type="text/css" href="/ux/webdms/css/projects/summit-2022.min.css" rel="stylesheet" />
+<link type="text/css" href="/ux/webdms/css/projects/summit-2021.min.css" rel="stylesheet" />
+<link type="text/css" href="/ux/webdms/css/styles.min.css" rel="stylesheet" />
+<link type="text/css" href="/ux/dx-web/css/projects/2024-summit-custom-hero.min.css" rel="stylesheet" />
+
+    <title>Red Hat Summit 2024 Homepage</title>
+    <script>performance.mark('CSS Start');</script>
+    <link rel="stylesheet" media="all" href="/rhdc/system-files/css/css_dKb3jOmf1weoF_8GJ_cLJRRw3alF6WpaTCEv-agPf3U.css?delta=0&amp;language=en&amp;theme=rhdc&amp;include=eJyNVFGW2yAMvJAdDtGD8ATItroYUSFn456-OMZbd7dJ9scW0jCCGT1kCt5Cgrgq-WLkn6XFEKJdCkonr3GOVXn-DrKQoi0I4qfvwFGEpStrUZyNg4J1k93-diEzRnYQf0zCM3bv6GQyecA-wZVGUOLUkjL14D0vSfsgnAO_p3vve8d-Z_mS6IsXylq-Fn6WfkIIhzIhsMlcKrfOJzAPQ-8hXeHMMDAryrnl6f4qS9EqzMVzKpj0MtfaiHKBTDuWqX5a1nhBqFrecz5S3dBFWHlRG6h4vqKshhN6jl2tka4WZ4fBeMh3bQSDnUBtmWALI7nNgnbE_1bDrV-UYun3Pn8x6DdGm6u4KEpYTNE1Hp54hRbhrxaMwktusYNUaZqgz7qWDJ7S-BzkwL9t7CmUF2z0-yXZEPHm-PYcNAqFD8S2g1xEu0tkmiNb-iGmLC6DVtGT_XzFz1DBsQpdpxjGQ0lMKOTbiuY6GrvPJ3UPH0COsM5ZCnV56N4AnLSOSvVTH02HQj3NR9G_YSBl2Sy-RBonDdsr8EwtXTOPAnlaH7XYxmWuvGAGilWVSxvYP26L0sk" />
+<link rel="stylesheet" media="print" href="https://static.redhat.com/libs/redhat/marketing/latest/trustarc/trustecm/css/trustecm.css" data-onload-media="all" onload="this.onload=null;this.media=this.dataset.onloadMedia" />
+<link rel="stylesheet" media="all" href="/rhdc/system-files/css/css_eK3NYUpiw4_AgdGQiuFqx3ln0PZWDu_lUhfGmV0j_iU.css?delta=2&amp;language=en&amp;theme=rhdc&amp;include=eJyNVFGW2yAMvJAdDtGD8ATItroYUSFn456-OMZbd7dJ9scW0jCCGT1kCt5Cgrgq-WLkn6XFEKJdCkonr3GOVXn-DrKQoi0I4qfvwFGEpStrUZyNg4J1k93-diEzRnYQf0zCM3bv6GQyecA-wZVGUOLUkjL14D0vSfsgnAO_p3vve8d-Z_mS6IsXylq-Fn6WfkIIhzIhsMlcKrfOJzAPQ-8hXeHMMDAryrnl6f4qS9EqzMVzKpj0MtfaiHKBTDuWqX5a1nhBqFrecz5S3dBFWHlRG6h4vqKshhN6jl2tka4WZ4fBeMh3bQSDnUBtmWALI7nNgnbE_1bDrV-UYun3Pn8x6DdGm6u4KEpYTNE1Hp54hRbhrxaMwktusYNUaZqgz7qWDJ7S-BzkwL9t7CmUF2z0-yXZEPHm-PYcNAqFD8S2g1xEu0tkmiNb-iGmLC6DVtGT_XzFz1DBsQpdpxjGQ0lMKOTbiuY6GrvPJ3UPH0COsM5ZCnV56N4AnLSOSvVTH02HQj3NR9G_YSBl2Sy-RBonDdsr8EwtXTOPAnlaH7XYxmWuvGAGilWVSxvYP26L0sk" />
+<link rel="stylesheet" media="all" href="/rhdc/system-files/css/css_1pSffSTywLZJH4Ci4g-ndTwvRiP83Kl9uYYCHRUsy30.css?delta=3&amp;language=en&amp;theme=rhdc&amp;include=eJyNVFGW2yAMvJAdDtGD8ATItroYUSFn456-OMZbd7dJ9scW0jCCGT1kCt5Cgrgq-WLkn6XFEKJdCkonr3GOVXn-DrKQoi0I4qfvwFGEpStrUZyNg4J1k93-diEzRnYQf0zCM3bv6GQyecA-wZVGUOLUkjL14D0vSfsgnAO_p3vve8d-Z_mS6IsXylq-Fn6WfkIIhzIhsMlcKrfOJzAPQ-8hXeHMMDAryrnl6f4qS9EqzMVzKpj0MtfaiHKBTDuWqX5a1nhBqFrecz5S3dBFWHlRG6h4vqKshhN6jl2tka4WZ4fBeMh3bQSDnUBtmWALI7nNgnbE_1bDrV-UYun3Pn8x6DdGm6u4KEpYTNE1Hp54hRbhrxaMwktusYNUaZqgz7qWDJ7S-BzkwL9t7CmUF2z0-yXZEPHm-PYcNAqFD8S2g1xEu0tkmiNb-iGmLC6DVtGT_XzFz1DBsQpdpxjGQ0lMKOTbiuY6GrvPJ3UPH0COsM5ZCnV56N4AnLSOSvVTH02HQj3NR9G_YSBl2Sy-RBonDdsr8EwtXTOPAnlaH7XYxmWuvGAGilWVSxvYP26L0sk" />
+<link rel="stylesheet" media="all" href="/rhdc/system-files/css/css_6Kxj4-KwFI_jCb0kZRjEAK-et1hBsd51Oh0tobutFd8.css?delta=4&amp;language=en&amp;theme=rhdc&amp;include=eJyNVFGW2yAMvJAdDtGD8ATItroYUSFn456-OMZbd7dJ9scW0jCCGT1kCt5Cgrgq-WLkn6XFEKJdCkonr3GOVXn-DrKQoi0I4qfvwFGEpStrUZyNg4J1k93-diEzRnYQf0zCM3bv6GQyecA-wZVGUOLUkjL14D0vSfsgnAO_p3vve8d-Z_mS6IsXylq-Fn6WfkIIhzIhsMlcKrfOJzAPQ-8hXeHMMDAryrnl6f4qS9EqzMVzKpj0MtfaiHKBTDuWqX5a1nhBqFrecz5S3dBFWHlRG6h4vqKshhN6jl2tka4WZ4fBeMh3bQSDnUBtmWALI7nNgnbE_1bDrV-UYun3Pn8x6DdGm6u4KEpYTNE1Hp54hRbhrxaMwktusYNUaZqgz7qWDJ7S-BzkwL9t7CmUF2z0-yXZEPHm-PYcNAqFD8S2g1xEu0tkmiNb-iGmLC6DVtGT_XzFz1DBsQpdpxjGQ0lMKOTbiuY6GrvPJ3UPH0COsM5ZCnV56N4AnLSOSvVTH02HQj3NR9G_YSBl2Sy-RBonDdsr8EwtXTOPAnlaH7XYxmWuvGAGilWVSxvYP26L0sk" />
+
+    <script>
+      performance.mark('CSS End');
+      performance.measure('CSS Time', 'CSS Start', 'CSS End');
+    </script>
+    <link rel="preload" href="/themes/custom/rh_base_ui/src/fonts/red_hat_text/RedHatTextVFModified.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/themes/custom/rh_base_ui/src/fonts/red_hat_display/RedHatDisplayVFModified.woff2" as="font" type="font/woff2" crossorigin>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"en\/","currentPath":"node\/742961","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"entity_embed\/caption,layout_discovery\/onecol,media\/filter.caption,red_hat_ckeditor\/cta.lightdom,red_hat_flexible_layout\/layout_flex,red_hat_flexible_layout\/region-drag,red_hat_flexible_layout\/subpattern_spacing,red_hat_section_properties\/style,red_hat_shared_libs\/dx-utils-backgrounds,red_hat_shared_libs\/dx-utils-flexbox,red_hat_shared_libs\/dx-utils-grid,red_hat_shared_libs\/dx-utils-layout,red_hat_shared_libs\/dx-utils-sizing,red_hat_shared_libs\/dx-utils-spacing,red_hat_shared_libs\/dx-utils-typography,red_hat_shared_libs\/rh-cta,red_hat_shared_libs\/rh-footer,red_hat_shared_libs\/rh-table,rh_base_ui\/globalChrome,rhdc\/rhdc-footer-global,rhdc\/rhdc-global,rhdc\/rhdc-global-js-header,rhdc\/rhdc-global-scripts,rhdc\/rhdc-off-canvas,rhdc_analytics\/rhdc_analytics_eddl_bottom,rhdc_analytics\/rhdc_analytics_eddl_error,rhdc_analytics\/rhdc_analytics_eddl_site_search,rhdc_analytics\/rhdc_analytics_eddl_user,rhdc_analytics\/trustarc.consent.manager.api,rhdc_ddo\/post-dtm,rhdc_oidc_manager\/create_oidc_client,system\/base,webrh\/band,webrh\/band_header,webrh\/card,webrh\/content_set,webrh\/cta,webrh\/eq,webrh\/generic,webrh\/group,webrh\/image_embed,webrh\/pfe-navigation,webrh\/rh-account-dropdown,webrh\/standard_header","theme":"rhdc","theme_token":null},"ajaxTrustedUrl":[],"rhdc_analytics":{"searchTerm":null},"rhdc_bulk_tagging":{"should_skip_product_primary_product_requirement":true,"field_taxonomy_blog_category":{"replace":"If you want to replace a \u003Cb\u003EBlog Post Category\u003C\/b\u003E and\n    that category is also the \u003Cb\u003EBlog Post Featured Category\u003C\/b\u003E,\n    please remove or replace the \u003Cb\u003EBlog Post Featured Category\u003C\/b\u003E in a previous operation.","remove":"If you remove a \u003Cb\u003EBlog Post Category\u003C\/b\u003E and\n    that category is also the \u003Cb\u003EBlog Post Featured Category\u003C\/b\u003E,\n    please remove or replace the \u003Cb\u003EBlog Post Featured Category\u003C\/b\u003E in a previous operation."},"field_taxonomy_blog_cat_featured":{"add":"When adding a \u003Cb\u003EBlog Post Featured Category\u003C\/b\u003E, that category must be\n    an existing value of \u003Cb\u003EBlog Post Category\u003C\/b\u003E.\n    If the value to add is not, please add that \u003Cb\u003EBlog Post Category\u003C\/b\u003E in a previous operation.","replace":"When replacing a \u003Cb\u003EBlog Post Featured Category\u003C\/b\u003E, that category must be\n    an existing value of \u003Cb\u003EBlog Post Category\u003C\/b\u003E.\n    If the replacement value is not, please add that \u003Cb\u003EBlog Post Category\u003C\/b\u003E in a previous operation."},"field_taxonomy_product":{"add":"If there is currently no \u003Cb\u003EPrimary Product\u003C\/b\u003E value before this operation,\n    a \u003Cb\u003EProduct\u003C\/b\u003E value will be chosen as the \u003Cb\u003EPrimary Product\u003C\/b\u003E.","remove":"\u003Cul\u003E\n    \u003Cli\u003EIf removing all existing \u003Cb\u003EProduct\u003C\/b\u003E value(s), the \u003Cb\u003EPrimary Product\u003C\/b\u003E will also be removed.\u003C\/li\u003E\n    \u003Cli\u003EIf not, please choose a new valid \u003Cb\u003EPrimary Product\u003C\/b\u003E in a previous operation\n    before removing the \u003Cb\u003EProduct\u003C\/b\u003E.\u003C\/li\u003E\n    \u003C\/ul\u003E","replace":"If the \u003Cb\u003EProduct\u003C\/b\u003E that is being replaced is the \u003Cb\u003EPrimary Product\u003C\/b\u003E,\n    please change the \u003Cb\u003EPrimary Product\u003C\/b\u003E in a previous operation."},"field_taxonomy_product_primary":{"add":"The \u003Cb\u003EPrimary Product\u003C\/b\u003E that is being added must be a value of an existing \u003Cb\u003EProduct\u003C\/b\u003E value.\n    If the \u003Cb\u003EPrimary Product\u003C\/b\u003E value to add is not, please add that \u003Cb\u003EProduct\u003C\/b\u003E in a previous operation.","remove":"You cannot remove the \u003Cb\u003EPrimary Product\u003C\/b\u003E. This operation will be skipped.","replace":"If the new \u003Cb\u003EPrimary Product\u003C\/b\u003E value is not an existing \u003Cb\u003EProduct\u003C\/b\u003E value,\n    please add that \u003Cb\u003EProduct\u003C\/b\u003E in a previous operation."}},"rhdcCore":{"webrh":{"version":"1.192.0"}},"rhdc_oidc_manager":{"authority":"https:\/\/sso.redhat.com\/auth\/realms\/redhat-external","client_id":"rhcom","loadUserInfo":true,"scope":"openid id.email id.idp id.name id.organization id.sub id.username roles"},"rhdc_solr_listing":{"testmode":false},"csp":{"nonce":"yvd5f2qXLJ4V0QYrA-FdgA"},"user":{"uid":0,"permissionsHash":"925c93e5e058a38840206e2faeb20be77d5863a368189af16a0faa928225c714"}}</script>
+<script src="/rhdc/system-files/js/js_y4YhcI36OgsbI3ALZaOkIblqfjRFU6RHnqKlqmj57K8.js?scope=header&amp;delta=0&amp;language=en&amp;theme=rhdc&amp;include=eJyNVFGW2yAMvJAdDtGD8ATItroYUSFn456-OMZbd7dJ9scW0jCCGT1kCt5Cgrgq-WLkn6XFEKJdCkonr3GOVXn-DrKQoi0I4qfvwFGEpStrUZyNg4J1k93-diEzRnYQf0zCM3bv6GQyecA-wZVGUOLUkjL14D0vSfsgnAO_p3vve8d-Z_mS6IsXylq-Fn6WfkIIhzIhsMlcKrfOJzAPQ-8hXeHMMDAryrnl6f4qS9EqzMVzKpj0MtfaiHKBTDuWqX5a1nhBqFrecz5S3dBFWHlRG6h4vqKshhN6jl2tka4WZ4fBeMh3bQSDnUBtmWALI7nNgnbE_1bDrV-UYun3Pn8x6DdGm6u4KEpYTNE1Hp54hRbhrxaMwktusYNUaZqgz7qWDJ7S-BzkwL9t7CmUF2z0-yXZEPHm-PYcNAqFD8S2g1xEu0tkmiNb-iGmLC6DVtGT_XzFz1DBsQpdpxjGQ0lMKOTbiuY6GrvPJ3UPH0COsM5ZCnV56N4AnLSOSvVTH02HQj3NR9G_YSBl2Sy-RBonDdsr8EwtXTOPAnlaH7XYxmWuvGAGilWVSxvYP26L0sk"></script>
+<script src="/modules/custom/rhdc_oidc_manager/libraries/dist/js/OidcManager.min.js?s871ja" type="module"></script>
+<script src="https://static.redhat.com/libs/@redhat/marketing/latest/rh.mktg.js"></script>
+<script src="/modules/custom/rhdc_ddo/libraries/dist/js/rhdc_ddo.post-dtm.min.js?s871ja" type="text/javascript"></script>
+<script src="/modules/custom/rhdc_oidc_manager/libraries/dist/js/index.min.js?s871ja" type="module"></script>
+
+    <script>
+      performance.mark('HEAD End');
+      performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');
+    </script>
+  </head>
+  <body class="path-node rhdc-node-type-page page-node-742961" >
+    
+    
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="rhb-region rhb-region--highlighted"><div data-drupal-messages-fallback class="hidden"></div></div>
+  <div class="rhdc-header--background-image"></div>
+  
+  <div class="rhb-region rhb-region--content" id="rhb-main-content" role="main">
+    <article>
+  <div>
+              <div class="dx-pb-8 one-column" section-properties-enabled>
+      
+      
+                            <div  class="content-region">
+          
+  <!-- Pattern | raw_html -->
+
+          <div class="one-column">
+      
+      
+                            <div class="content-region">
+              
+            <header class="header bg-gray-900 d-md-flex align-items-md-center position-fixed top-0 w-100 z-1"><div class="container">
+      <div class="navbar navbar-expand-lg p-0" role="navigation">
+          <div class="navbar-header d-flex align-items-center justify-content-between">
+              <button class="navbar-toggler collapsed d-flex d-lg-none align-items-center float-none position-relative border-0 rounded-0" type="button" data-target="#nav-main" data-toggle="collapse" aria-expanded="false" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+                  <div class="icon-container mr-1">
+                      <span class="icon-bar d-block bg-white rounded-0"></span>
+                      <span class="icon-bar d-block bg-white rounded-0"></span>
+                      <span class="icon-bar d-block bg-white rounded-0"></span>
+                  </div>
+
+                  <span class="navbar-toggler-text d-lg-none font-size-14 font-size-md-18 font-weight-bold text-white text-uppercase">Menu</span>
+              </button>
+
+              <a href="/en/summit" title="Red Hat Summit">
+                  <img src="/rhdc/managed-files/Logo-Red_Hat-Summit-A-Standard-RGB-02_0.svg" alt="Red Hat Summit logo" /></a>
+              <!--<a class="summit-logo mr-1 mr-xl-2 pr-lg-2 pr-xl-4" href="https://www.redhat.com/en/summit" title="Red Hat Summit">
+                  <img src="/rhdc/managed-files/Logo-Red_Hat-Summit-A-Standard-RGB-02_0.svg" alt="Red Hat Summit logo">
+              </a>-->
+
+              <a class="d-lg-none" href="/en/home-page" title="Red Hat">
+                  <img class="rh-logo" src="https://static.redhat.com/libs/redhat/brand-assets/2.5.0/corp/logo--on-dark.svg" alt="Red Hat logo" /></a>
+          </div>
+
+          <div id="nav-main" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav d-xl-flex ml-1"><li class="nav-item d-none d-xl-flex align-items-center">
+                    <p class="summit-logo py-1 px-2 pr-xl-3 mr-1 mb-0 font-size-16 text-white">
+                        May 6-9, 2024
+                    </p>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle px-lg-1 px-xl-2 pb-lg-3 d-flex align-items-center d-lg-inline-block font-size-18" href="#" title="About" data-toggle="dropdown" aria-expanded="false">
+                          About <span class="fa fa-chevron-down ml-auto font-size-12 text-gray-900"></span>
+                      </a>
+
+                      <ul class="dropdown-menu pt-0 p-lg-2 border-0 rounded-0"><!--
+                          <li class="nav-item mb-lg-1">
+                              <a class="nav-link pt-0 px-3 pb-1 p-lg-0 d-lg-inline-block font-size-18" href="/en/summit/about" title="About the 2023 event">About Red Hat Summit</a>
+                          </li>
+                          --><li class="nav-item mb-lg-1">
+                              <a class="nav-link pt-0 px-3 pb-1 p-lg-0 d-lg-inline-block font-size-18" href="/en/summit/attend" title="Why attend Red Hat Summit 2024">
+                                  <u>Why attend</u>
+                              </a>
+                          </li>
+                          <li class="nav-item mb-lg-1">
+                              <a class="nav-link pt-0 px-3 pb-1 p-lg-0 d-lg-inline-block font-size-18" href="/en/summit/pricing" title="Pricing">
+                                  <u>Pricing</u>
+                              </a>
+                          </li>
+                          <li class="nav-item mb-lg-1">
+                              <a class="nav-link pt-0 px-3 pb-1 p-lg-0 d-lg-inline-block font-size-18" href="/en/summit/about/faq" title="FAQ">
+                                  <u>FAQ</u>
+                              </a>
+                          </li>
+                          <!--
+                          <li class="nav-item mb-lg-1">
+                              <a class="nav-link pt-0 px-3 pb-1 p-lg-0 d-lg-inline-block font-size-18" href="/en/summit/ansiblefest" title="AnsibleFest">AnsibleFest</a>
+                          </li>
+                          <li class="nav-item mb-lg-1">
+                              <a class="nav-link pt-0 px-3 pb-1 p-lg-0 d-lg-inline-block font-size-18" href="https://events.experiences.redhat.com/widget/redhat/sum23/SessionCatalog2023?tab.playback=1610407505509001UHce" title="Session catalog">Session catalog</a>
+                          </li>
+                          -->
+
+                          <!--
+                          <li class="nav-item mb-lg-1">
+                              <a class="nav-link pt-0 px-3 pb-1 p-lg-0 d-lg-inline-block font-size-18" href="/en/summit/about/faq" title="FAQs">FAQs</a>
+                          </li>
+                          -->
+                      </ul></li>
+
+                  
+
+                  <!--
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle px-lg-1 px-xl-2 pb-lg-3 ml-3 d-flex align-items-center d-lg-inline-block font-size-18" href="#" title="Regional events" data-toggle="dropdown" aria-expanded="false">
+                          Regional events <span class="fa fa-chevron-down ml-auto font-size-12 text-gray-900"></span>
+                      </a>
+
+                      <ul class="dropdown-menu pt-0 p-lg-2 border-0 rounded-0">
+                          <li class="nav-item mb-lg-1">
+                              <a class="nav-link pt-0 px-3 pb-1 p-lg-0 d-lg-inline-block font-size-18" href="/en/summit/connect" title="Red Hat Summit: Connect global hub">Red Hat Summit: Connect</a>
+                          </li>
+                          <li class="nav-item mb-lg-1">
+                              <a class="nav-link pt-0 px-3 pb-1 p-lg-0 d-lg-inline-block font-size-18" href="/en/summit/connect/apac" title="Red Hat Summit: Connect events in Asia Pacific">Asia Pacific</a>
+                          </li>
+                          <li class="nav-item mb-lg-1">
+                              <a class="nav-link pt-0 px-3 pb-1 p-lg-0 d-lg-inline-block font-size-18" href="/en/summit/connect/emea" title="Red Hat Summit: Connect events in Europe, Middle East, and Africa">Europe, Middle East, and Africa</a>
+                          </li>
+                          <li class="nav-item mb-lg-1">
+                              <a class="nav-link pt-0 px-3 pb-1 p-lg-0 d-lg-inline-block font-size-18" href="/en/summit/connect/na" title="Red Hat Summit: Connect events in North America">North America</a>
+                          </li>
+                      </ul>
+                  </li>
+                  -->
+
+                  <li class="nav-item">
+                      <a class="nav-link px-lg-1 px-xl-2 pb-lg-3 d-flex align-items-center d-lg-inline-block font-size-18" href="/en/summit/submit-a-session" title="Speakers">Speakers</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link px-lg-1 px-xl-2 pb-lg-3 d-flex align-items-center d-lg-inline-block font-size-18" href="/en/summit/sponsors" title="Sponsors">Sponsors</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="btn btn-outline-white mt-2 ml-6 py-1 d-none d-lg-block" href="https://reg.experiences.redhat.com/flow/redhat/sum24/loginGenAttendee/page/start" title="Register">
+                          Register
+                      </a>
+                  </li>
+              </ul><a class="ml-auto d-none d-lg-inline-block" href="/en/home-page" title="Red Hat">
+                  <img src="https://www.redhat.com/profiles/rh/themes/redhatdotcom/img/logo.svg" width="135" height="71" alt="Red Hat logo" loading="lazy" /></a>
+          </div>
+      </div>
+  </div>
+</header></div>
+                  </div>
+  
+
+
+
+        </div>
+                  </div>
+    <section data-rh-theme="dark" class="dx-bg-gray-90 dx-pt-4 dx-pb-2 dx-relative" section-properties-enabled>
+    <img class='dx-hidden md:dx-block dx-absolute dx-h-full dx-w-full dx-top-0 dx-object-cc dx-object-cover' src='/rhdc/managed-files/RH-Summit-2024-Home-NotificationBand-Background_0.png'>
+    <img class='md:dx-hidden dx-absolute dx-h-full dx-w-full dx-top-0 dx-object-cc dx-object-cover' src='/rhdc/managed-files/RH-Summit-2024-Home-NotificationBand-Background_0.png'>
+          <div class="dx-container ">
+          <div class="dx-row  dx-justify-around ">
+                            <div class="dx-col-12 md:dx-col-12 rhpb-region  dx-flex" style="flex-direction:column">
+            
+  <!-- Subpattern | simple_text -->
+
+                
+                    
+        
+                    
+                    
+                    
+                                    
+        
+            
+        
+                
+            
+    
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="center"    >
+        <p><em><i data-stringify-type="italic">Register for Red Hat Summit before February 14 to</i></em><b data-stringify-type="bold"><em><i data-stringify-type="italic"><strong> </strong></i></em></b><em><i data-stringify-type="italic">get your event pass at our discounted rate of </i></em><b data-stringify-type="bold"><em><i data-stringify-type="italic"><strong>US$1,099.</strong></i></em></b></p>
+    </div>
+                            </div>
+                    </div>
+
+
+          </div>
+              </div>
+    </div>
+  </section>
+  <section id="animated-hero-outer-container" section-properties-enabled>
+    
+    
+          <div class="">
+          <div class="dx-row  ">
+                            <div class="dx-col-12 md:dx-col-12 rhpb-region  dx-flex" style="flex-direction:column">
+            
+  <!-- Pattern | raw_html -->
+
+<style>
+/*<![CDATA[*/
+
+.dx-row {
+  --bs-gutter-x: 0 !important;
+}
+
+@media (min-width: 992px) and (max-height: 880px) {
+.animated-hero .animated-hero-text-band {
+    padding-top: 0 !important;
+    padding-bottom: 80px !important;
+}
+}
+
+/*]]>*/
+</style><!-- HTML start --><section class="animated-hero dx-relative dx-overflow-hidden no-animation"><img class="animated-rectangles dx-absolute" src="https://www.redhat.com/rhdc/managed-files/summit-hero-rectangle.svg" alt="" /><img class="animated-half-circle dx-absolute" src="https://www.redhat.com/rhdc/managed-files/summit-hero-half-circle.svg" alt="" /><!-- motion toggle --><div tabindex="0" class="animation-toggle dx-absolute dx-p-1" role="switch" aria-checked="false">
+        <span class="animation-switch-label dx-text-white dx-mr-2">Motion</span>
+        <span class="animation-switch-container"><span class="toggle-indicator"></span></span>
+        <span class="animation-switch-on-label animation-switch-on-off-label dx-text-white" data-hidden="true" aria-hidden="true">On</span>
+        <span class="animation-switch-off-label animation-switch-on-off-label dx-text-white" aria-hidden="true">Off</span>
+    </div>
+    <!---->
+    <div class="dx-band dx-h-full">
+        <div class="dx-container dx-h-full">
+            <div class="dx-row dx-h-full">
+                <div class="animated-hero-text-band dx-col-12 lg:dx-col-6 dx-h-full">
+                    <div class="dx-h-full dx-text-left lg:dx-text-center dx-m-auto dx-flex dx-flex-col dx-items-left lg:dx-items-center dx-justify-center dx-ml-2 sm:dx-ml-6 lg:dx-ml-0">
+                        <img src="https://www.redhat.com/rhdc/managed-files/Red-Hat-Summit-logo.svg" alt="Red Hat Summit logo" width="180px" class="hero-summit-logo dx-block dx-mb-1" /><img src="https://www.ansible.com/hubfs/Images/logos/ansible-fest-logo-pool-reverse-rgb.svg" alt="AnsibleFest logo" width="175px" class="hero-ansiblefest-logo dx-block dx-mb-2" /><h1 class="dx-text-white dx-mb-4">Claim your seat to unlock what's next</h1>
+                        <rh-cta variant="secondary" color-palette="dark" class="register-button dx-relative"><a href="https://reg.experiences.redhat.com/flow/redhat/sum24/loginGenAttendee/page/start" data-analytics-text="Register now" data-analytics-category="hero" data-analytics-linktype="cta">Register now</a>
+                        </rh-cta><rh-cta icon="circle-play" class="watch-video-button dx-mt-3 lg:dx-hidden"><a href="javascript:void(0)" data-analytics-linktype="cta" data-analytics-text="Watch the video">Watch the video</a>
+                        </rh-cta><img class="animated-triangles dx-absolute" src="https://www.redhat.com/rhdc/managed-files/summit-hero-bottom-triangles.svg" alt="" /></div>
+                </div>
+                <div class="dx-col-12 lg:dx-col-6 dx-relative"></div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-desktop-only">
+        <div role="button" tabindex="0" class="animated-hero-video-poster" aria-haspopup="dialog" aria-expanded="false">
+            <img width="100%" src="/rhdc/managed-files/red-hat-summit-video-poster-img.png" alt="Play Video: Red Hat Summit &amp; AnsibleFest 2024" /><div class="animated-hero-play-outer">
+                <div class="animated-hero-play-inner"></div>
+            </div>
+        </div>
+        <img class="animated-video-shapes dx-absolute" src="https://www.redhat.com/rhdc/managed-files/summit-hero-video-shapes.svg" alt="" /></div>
+    <!-- youtube video -->
+    <div class="animated-hero-video-overlay dx-hidden">
+        <button class="video-close-button dx-absolute dx-flex dx-justify-center dx-items-center">
+            <img width="40" src="https://static.redhat.com/libs/redhat/rh-iconfont/latest/svg/web-icon-close.svg" alt="close video" /></button>
+    </div>
+    <div class="animated-hero-video-container dx-hidden">
+    </div>
+</section><!-- HTML end -->
+
+          </div>
+              </div>
+    </div>
+  </section>
+          <div class="one-column">
+      
+      
+                            <div  class="content-region">
+          
+  <!-- Pattern | custom_band -->
+    
+
+
+
+    
+            
+
+
+
+
+
+
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+    
+                
+    
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<div class="rh-band--layout"          data-rh-bq="
+        '/rhdc/managed-files/Homepage-Unlock-Band.png', '/rhdc/managed-files/Homepage-Unlock-Band.png'"
+     data-rh-background-align="center-center" data-rh-background="rich-black">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><header class="rh-band-header"        data-rh-layout="only8" data-rh-theme="dark">
+                                                            <!-- Component | Band_header -->
+
+
+    
+                
+                                                                
+    <div class="rh-band-header--component" data-rh-align=left        ><h2 class="rh-band-header-headline" >Uncover new paths to your IT goals</h2>
+</div>
+                                                    </header><div class="rh-band-content"    
+                     data-rh-layout="only8 flex left"                 data-rh-theme="dark "><!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="left"    >
+        <p>Red Hat® Summit and AnsibleFest bring together IT professionals, customers, partners, and peers to provide you the tools, connections, and knowledge to support your technology goals. Register now and join us May 6-9 in Denver, Colorado, to solve difficult challenges, grow your expertise, and learn ways to meet the demands of your customers with less, not more, complexity. You’ll leave with new ideas to help you and your company excel.</p>
+    </div>
+                            </div>
+                    </div>
+</div></section></div>
+    </div>
+
+  <!-- Pattern | custom_band -->
+    
+
+
+
+    
+        
+
+
+
+
+
+
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+    
+    
+                
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-background-align="center-center" data-rh-band-collapse="no-padding-bottom"  data-rh-background="white">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><header class="rh-band-header"        data-rh-layout="only8 center" data-rh-theme="">
+                                                            <!-- Component | Band_header -->
+
+
+    
+                
+                                                                
+    <div class="rh-band-header--component" data-rh-align=center        ><h2 class="rh-band-header-headline" >Get a preview of our agenda</h2>
+</div>
+                                                    </header><div class="rh-band-content"    
+                     data-rh-layout="only8 flex center"                ><!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="center"    >
+        <p>From May 6-9, Red Hat Summit and AnsibleFest are bringing together sessions to help you unlock new ways to innovate, collaborate, and evolve your knowledge of technology and automation. In addition to keynotes, roundtable discussions, and the expo hall, you will gain access to hands-on training, labs, and networking. An updated agenda with specific details will be available soon.&nbsp;<a href="https://www.redhat.com/rhdc/managed-files/One-pager%20_%20Why%20attend%20Red%20Hat%20Summit%20and%20AnsibleFest%202024_.pdf">Find all there is to do</a> while at Red Hat Summit and beyond.&nbsp;</p>
+    </div>
+                            </div>
+                    </div>
+</div></section></div>
+    </div>
+
+  <!-- Pattern | content_set_band -->
+
+
+
+    
+
+                    
+
+
+
+
+
+    
+    
+    
+    
+                
+
+        
+
+
+
+    
+    
+
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-background="white">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><div class="rh-band-content"    
+                     data-rh-layout="stacked"                >
+
+
+
+
+    <pfe-content-set class="rh-content-set--layout"    tab-history
+     variant="wind" align="center">
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="pre-event-day-1">Pre-event day 1</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="only8 flex center" >
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+            
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | standard_header -->
+
+
+                    
+                    
+
+
+
+
+                        
+
+
+        <header class="rh-standard-header--component"     data-rh-align=center
+                  >
+        <div class="rh-standard-header-container">
+                                    <h3 class="rh-standard-header-headline-small" >Sunday, May 5</h3>                    </div>
+            </header>
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="center"    >
+        <rh-table full-screen="false"><table><tbody><tr style="border:hidden;"><td style="vertical-align:top;width:50%;"><strong>Morning</strong></td><td style="text-align:left;"><p>Power Training</p><p>&nbsp;</p></td></tr><tr style="border:hidden;"><td style="vertical-align:top;width:50%;"><strong>Afternoon</strong></td><td style="text-align:left;"><p>Power Training</p><p>&nbsp;</p></td></tr></tbody></table></rh-table>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="pre-event-day-2">Pre-event day 2</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="only8 flex center" >
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+            
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | standard_header -->
+
+
+                    
+                    
+
+
+
+
+                        
+
+
+        <header class="rh-standard-header--component"     data-rh-align=center
+                  >
+        <div class="rh-standard-header-container">
+                                    <h3 class="rh-standard-header-headline-small" >Monday, May 6</h3>                    </div>
+            </header>
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="center"    >
+        <rh-table full-screen="false"><table><tbody><tr style="border:hidden;"><td style="vertical-align:top;width:50%;"><strong>Morning</strong></td><td style="text-align:left;"><p>Community Day</p><p>Power Training</p></td></tr><tr style="border:hidden;"><td style="vertical-align:top;width:50%;"><strong>Afternoon</strong></td><td style="text-align:left;"><p>Community Day</p><p>Power Training</p></td></tr><tr style="border:hidden;"><td style="vertical-align:top;width:50%;"><strong>Evening</strong></td><td style="text-align:left;"><p>Welcome reception</p><p>Additional activities</p></td></tr></tbody></table></rh-table>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="day-1">Day 1</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="only8 flex center" >
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+            
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | standard_header -->
+
+
+                    
+                    
+
+
+
+
+                        
+
+
+        <header class="rh-standard-header--component"     data-rh-align=center
+                  >
+        <div class="rh-standard-header-container">
+                                    <h3 class="rh-standard-header-headline-small" >Tuesday, May 7</h3>                    </div>
+            </header>
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="center"    >
+        <rh-table full-screen="false"><table><tbody><tr style="border:hidden;"><td style="vertical-align:top;width:50%;"><strong>Morning</strong></td><td style="text-align:left;"><p>Breakfast</p><p>Keynote</p><p>Breakout sessions</p><p>Labs</p><p>Expo hall</p><p>Executive Exchange</p></td></tr><tr style="border:hidden;"><td style="vertical-align:top;width:50%;"><strong>Afternoon</strong></td><td style="text-align:left;"><p>Lunch</p><p>Breakout sessions</p><p>Ecosystem Success keynote</p><p>Labs</p><p>Expo hall</p><p>Executive Exchange</p></td></tr><tr style="border:hidden;"><td style="vertical-align:top;width:50%;"><strong>Evening</strong></td><td style="text-align:left;"><p>Hall crawl</p><p>Additional activities</p></td></tr></tbody></table></rh-table>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="day-2">Day 2</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="only8 flex center" >
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+            
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | standard_header -->
+
+
+                    
+                    
+
+
+
+
+                        
+
+
+        <header class="rh-standard-header--component"     data-rh-align=center
+                  >
+        <div class="rh-standard-header-container">
+                                    <h3 class="rh-standard-header-headline-small" >Wednesday, May 8</h3>                    </div>
+            </header>
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="center"    >
+        <rh-table full-screen="false"><table><tbody><tr style="border:hidden;"><td style="vertical-align:top;width:50%;"><strong>Morning</strong></td><td style="text-align:left;"><p>Breakfast</p><p>Keynote</p><p>Breakout sessions</p><p>Labs</p><p>Expo hall</p></td></tr><tr style="border:hidden;"><td style="vertical-align:top;width:50%;"><strong>Afternoon</strong></td><td style="text-align:left;"><p>Lunch</p><p>Breakout sessions</p><p>Labs</p><p>Expo hall</p></td></tr><tr style="border:hidden;"><td style="vertical-align:top;width:50%;"><strong>Evening</strong></td><td style="text-align:left;"><p>Red Hat Summit and AnsibleFest party</p><p>&nbsp;</p></td></tr></tbody></table></rh-table>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="day-3">Day 3</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="only8 flex center" >
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+            
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | standard_header -->
+
+
+                    
+                    
+
+
+
+
+                        
+
+
+        <header class="rh-standard-header--component"     data-rh-align=center
+                  >
+        <div class="rh-standard-header-container">
+                                    <h3 class="rh-standard-header-headline-small" >Thursday, May 9</h3>                    </div>
+            </header>
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="center"    >
+        <rh-table full-screen="false"><table><tbody><tr style="border:hidden;"><td style="vertical-align:top;width:50%;"><strong>Morning</strong></td><td style="text-align:left;"><p>Breakfast</p><p>Breakout sessions</p><p>Labs</p><p>Expo hall</p></td></tr><tr style="border:hidden;"><td style="vertical-align:top;width:50%;"><strong>Afternoon</strong></td><td style="text-align:left;"><p>Lunch</p><p>Breakout sessions</p><p>Labs</p></td></tr><tr style="border:hidden;"><td style="vertical-align:top;width:50%;"><strong>Evening</strong></td><td style="text-align:left;"><p>Additional activities</p><p>&nbsp;</p></td></tr></tbody></table></rh-table>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+            </pfe-content-set>
+
+</div></section></div>
+    </div>
+
+  <!-- Pattern | custom_band -->
+    
+
+
+
+    
+        
+
+
+
+
+
+
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div class="rh-band--layout"  id="tiered-pricing"  data-rh-background-align="center-center" data-rh-band-collapse="reduced-bottom-only"  data-rh-background="gray">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><header class="rh-band-header"        data-rh-layout="only8 center" data-rh-theme="">
+                                                            <!-- Component | Band_header -->
+
+
+    
+                
+                                                                
+    <div class="rh-band-header--component" data-rh-align=center        ><h2 class="rh-band-header-headline" >View event passes, add-on options, and hotel pricing</h2><div class="rh-band-header-summary"><p>Take advantage of discounted event rates for you or your team.</p></div>
+</div>
+                                                    </header><div class="rh-band-content"    
+                     data-rh-layout="4 4 4 flex center"                ><!-- Subpattern | standard_text -->
+
+
+                                
+                            
+        
+            
+                
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Card layout -->
+<div class="rh-card--layout "     data-rh-background="white"
+            data-rh-theme="light"
+        
+        data-rh-bg-align="cover"
+    
+        data-rh-layout="stacked"
+
+            data-eq-pts="xxs-box: 0, xs-box: 202, sm-box: 302, md-box: 402, lg-box: 502, xl-box: 602, xxl-box: 702, xxxl-box: 768, box-edges: 262"
+    data-rh-justify="justify"><div class="rh-card-content"    data-rh-layout="min-stacked"
+    >
+                            <!-- Component | standard_header -->
+
+
+                    
+                    
+
+
+
+
+                        
+
+
+        <header class="rh-standard-header--component"     data-rh-align=center
+                  >
+        <div class="rh-standard-header-container">
+                            <p class="rh-standard-header-title-small"     >
+                    Earliest
+                                                                            </p>                                    <h3 class="rh-standard-header-headline-small" id="rh-l9sfx">US$1,099</h3>                    </div>
+            </header>
+                            <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="center"    >
+        <p>(January 10-February 13)</p>
+    </div>
+                    </div>
+    </div>
+<!-- Subpattern | standard_text -->
+
+
+                                
+                            
+        
+            
+                
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Card layout -->
+<div class="rh-card--layout "     data-rh-background="white"
+            data-rh-theme="light"
+        
+        data-rh-bg-align="cover"
+    
+        data-rh-layout="stacked"
+
+            data-eq-pts="xxs-box: 0, xs-box: 202, sm-box: 302, md-box: 402, lg-box: 502, xl-box: 602, xxl-box: 702, xxxl-box: 768, box-edges: 262"
+    data-rh-justify="justify"><div class="rh-card-content"    data-rh-layout="min-stacked"
+    >
+                            <!-- Component | standard_header -->
+
+
+                    
+                    
+
+
+
+
+                        
+
+
+        <header class="rh-standard-header--component"     data-rh-align=center
+                  >
+        <div class="rh-standard-header-container">
+                            <p class="rh-standard-header-title-small"     >
+                    Early
+                                                                            </p>                                    <h3 class="rh-standard-header-headline-small" id="rh-jz208">US$1,499</h3>                    </div>
+            </header>
+                            <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="center"    >
+        <p>(February 14-March 19)</p>
+    </div>
+                    </div>
+    </div>
+<!-- Subpattern | standard_text -->
+
+
+                                
+                            
+        
+            
+                
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Card layout -->
+<div class="rh-card--layout "     data-rh-background="white"
+            data-rh-theme="light"
+        
+        data-rh-bg-align="cover"
+    
+        data-rh-layout="stacked"
+
+            data-eq-pts="xxs-box: 0, xs-box: 202, sm-box: 302, md-box: 402, lg-box: 502, xl-box: 602, xxl-box: 702, xxxl-box: 768, box-edges: 262"
+    data-rh-justify="justify"><div class="rh-card-content"    data-rh-layout="min-stacked"
+    >
+                            <!-- Component | standard_header -->
+
+
+                    
+                    
+
+
+
+
+                        
+
+
+        <header class="rh-standard-header--component"     data-rh-align=center
+                  >
+        <div class="rh-standard-header-container">
+                            <p class="rh-standard-header-title-small"     >
+                    Regular
+                                                                            </p>                                    <h3 class="rh-standard-header-headline-small" id="rh-2p9tv">US$1,899</h3>                    </div>
+            </header>
+                            <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="center"    >
+        <p>(March 20-May 9)</p>
+    </div>
+                    </div>
+    </div>
+</div></section></div>
+    </div>
+
+  <!-- Pattern | custom_band -->
+
+
+
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-background-align="center-center" data-rh-band-collapse="no-padding-top"  data-rh-background="gray">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><div class="rh-band-content"    
+                     data-rh-layout="stacked center"                ><!-- Subpattern | standard_text -->
+
+
+                                
+                            
+        
+            
+                
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Card layout -->
+<div class="rh-card--layout "     data-rh-background="white"
+            data-rh-theme="light"
+        
+        data-rh-bg-align="cover"
+    
+        data-rh-layout="stacked"
+
+            data-eq-pts="xxs-box: 0, xs-box: 202, sm-box: 302, md-box: 402, lg-box: 502, xl-box: 602, xxl-box: 702, xxxl-box: 768, box-edges: 262"
+    data-rh-justify="justify"><div class="rh-card-content"    data-rh-layout="min-stacked"
+    >
+                            <!-- Component | standard_header -->
+
+
+                    
+                    
+
+
+
+
+                        
+
+
+        <header class="rh-standard-header--component"     data-rh-align=center
+                  >
+        <div class="rh-standard-header-container">
+                            <p class="rh-standard-header-title-small"     >
+                    3+ passes
+                                                                            </p>                                    <h3 class="rh-standard-header-headline-small" id="rh-zba84">US$799</h3>                    </div>
+            </header>
+                            <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="center"    >
+        <p>Public group prices available all year</p>
+    </div>
+                    </div>
+    </div>
+</div><footer class="rh-band-footer"        ><!-- Component | CTA -->
+
+
+    
+                        
+    
+    <span class="rh-cta--component"                  data-rh-align="center"                data-rh-cta-type="primary"
+    >
+        <a class="rh-cta-link"                 href="/en/summit/pricing"                target="_self"        data-analytics-linkType="cta"
+        data-analytics-text="View all pricing options"                    >View all pricing options</a>
+    </span>
+</footer></section></div>
+    </div>
+
+  <!-- Subpattern | simple_media -->
+
+
+
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"                         data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="stacked"     >
+                                    <!-- Component | Image_embed -->
+
+    
+
+
+    <div class="rh-image-embed--component"
+                 data-rh-align="center left-mobile"                
+                        >
+
+        <div class="rh-image-embed-container">
+                                                                <div class="rh-image-embed-span" >
+
+                                                    <img class="rh-image-embed-img" src="/rhdc/managed-files/Summit-2023-Event_0.jpg"          alt="Red Hat Summit 2023 event"                                         loading="lazy"     >
+                        
+                    </div>
+                                                </div>
+            </div>
+                            </div>
+                    </div>
+
+
+  <!-- Pattern | custom_band -->
+    
+
+
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+    
+    
+    
+                
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-background-align="center-center" data-rh-band-collapse="reduced-bottom-only"  data-rh-background="white">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><div class="rh-band-content"    
+                     data-rh-layout="6 6 flex left"                ><!-- Subpattern | image_box -->
+
+                                    
+                            
+                            
+                            
+                                            
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Card layout -->
+<div class="rh-card--layout "     data-rh-background="white"
+            data-rh-theme="light"
+        
+        data-rh-bg-align="cover"
+    
+        data-rh-layout="stacked"
+
+            data-eq-pts="xxs-box: 0, xs-box: 202, sm-box: 302, md-box: 402, lg-box: 502, xl-box: 602, xxl-box: 702, xxxl-box: 768, box-edges: 262"
+    data-rh-justify="justify"><div class="rh-card-content"    data-rh-layout="stacked"
+    >
+                            <!-- Component | Image_embed -->
+
+    
+
+
+    <div class="rh-image-embed--component"
+                 data-rh-align="bleed"                
+                        >
+
+        <div class="rh-image-embed-container">
+                            <a class="rh-image-embed-link" href="https://www.redhat.com/rhdc/managed-files/Summit%202024%20_%20One-pager%20_%20Convince%20your%20boss%20letter%20%281%29.pdf">
+                                                                <div class="rh-image-embed-span" >
+
+                                                    <img class="rh-image-embed-img" src="/rhdc/managed-files/Homepage-Section-1.png"                                                  loading="lazy"     >
+                        
+                    </div>
+                                          </a>
+                                </div>
+            </div>
+                            <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="left"    >
+        <h3 id='rh-xaxca'><a href='https://www.redhat.com/rhdc/managed-files/Summit%202024%20_%20One-pager%20_%20Convince%20your%20boss%20letter%20%281%29.pdf'>Justify your trip</a></h3><p>Communicate the benefits of attending Red Hat Summit and AnsibleFest 2024 for yourself or as a team. Use this letter to help lay out how attending Red Hat Summit and AnsibleFest can benefit your organization.&nbsp;</p>
+    </div>
+                    </div>
+    <footer class="rh-card-footer"            >
+                            <!-- Component | CTA -->
+
+
+    
+                        
+    
+    <span class="rh-cta--component"                  data-rh-align="left"                data-rh-cta-type="secondary"
+    >
+        <a class="rh-cta-link"                 href="https://www.redhat.com/rhdc/managed-files/Summit%202024%20_%20One-pager%20_%20Convince%20your%20boss%20letter%20%281%29.pdf"                target="_self"        data-analytics-linkType="cta"
+        data-analytics-text="Download letter"                aria-describedby="rh-3ux0s"     >Download letter<span aria-hidden="true"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><title>Icon-Red_Hat-Directional-A-Black-RGB</title><path d="M29.74 17.95v-.1a.9.9 0 0 0-.03-.086c-.01-.025-.016-.05-.027-.075a.72.72 0 0 0-.148-.223l-3.5-3.5-3.5-3.5a.75.75 0 1 0-1.06 1.06l2.86 2.86 2.86 2.86H7a.75.75 0 0 0 0 1.5h20.19l-2.22 2.223-3.5 3.5a.75.75 0 1 0 1.06 1.06l3.5-3.5 3.5-3.5c.007-.007.01-.016.016-.023a.738.738 0 0 0 .147-.22l.005-.02a.76.76 0 0 0 .045-.236.23.23 0 0 0 .007-.03c0-.017-.008-.032-.01-.05z"/></svg></span></a>
+    </span>
+                    </footer>
+    </div>
+<!-- Subpattern | image_box -->
+
+                                    
+                            
+                            
+                            
+                                            
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Card layout -->
+<div class="rh-card--layout "     data-rh-background="white"
+            data-rh-theme="light"
+        
+        data-rh-bg-align="cover"
+    
+        data-rh-layout="stacked"
+
+            data-eq-pts="xxs-box: 0, xs-box: 202, sm-box: 302, md-box: 402, lg-box: 502, xl-box: 602, xxl-box: 702, xxxl-box: 768, box-edges: 262"
+    data-rh-justify="justify"><div class="rh-card-content"    data-rh-layout="stacked"
+    >
+                            <!-- Component | Image_embed -->
+
+    
+
+
+    <div class="rh-image-embed--component"
+                 data-rh-align="bleed"                
+                        >
+
+        <div class="rh-image-embed-container">
+                            <a class="rh-image-embed-link" href="https://reg.experiences.redhat.com/flow/redhat/sum24/regVisaLetter/login">
+                                                                <div class="rh-image-embed-span" >
+
+                                                    <img class="rh-image-embed-img" src="/rhdc/managed-files/Homepage-Section-2.png"                                                  loading="lazy"     >
+                        
+                    </div>
+                                          </a>
+                                </div>
+            </div>
+                            <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="left"    >
+        <h3 id='rh-2jn1h'><a href='https://reg.experiences.redhat.com/flow/redhat/sum24/regVisaLetter/login'>Request a visa</a></h3><p>If you require a visa to travel to Denver for Red Hat Summit 2024, you will need to complete the registration process for the event and select the visa request option on the confirmation page. If you have any questions about the process, or need additional information,&nbsp;<a href="mailto:rh-summit@itagroup.com">email our team</a>.</p>
+    </div>
+                    </div>
+    <footer class="rh-card-footer"            >
+                            <!-- Component | CTA -->
+
+
+    
+                        
+    
+    <span class="rh-cta--component"                  data-rh-align="left"                data-rh-cta-type="secondary"
+    >
+        <a class="rh-cta-link"                 href="https://reg.experiences.redhat.com/flow/redhat/sum24/regVisaLetter/login"                target="_self"        data-analytics-linkType="cta"
+        data-analytics-text="Register for the event"                aria-describedby="rh-fdwkg"     >Register for the event<span aria-hidden="true"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><title>Icon-Red_Hat-Directional-A-Black-RGB</title><path d="M29.74 17.95v-.1a.9.9 0 0 0-.03-.086c-.01-.025-.016-.05-.027-.075a.72.72 0 0 0-.148-.223l-3.5-3.5-3.5-3.5a.75.75 0 1 0-1.06 1.06l2.86 2.86 2.86 2.86H7a.75.75 0 0 0 0 1.5h20.19l-2.22 2.223-3.5 3.5a.75.75 0 1 0 1.06 1.06l3.5-3.5 3.5-3.5c.007-.007.01-.016.016-.023a.738.738 0 0 0 .147-.22l.005-.02a.76.76 0 0 0 .045-.236.23.23 0 0 0 .007-.03c0-.017-.008-.032-.01-.05z"/></svg></span></a>
+    </span>
+                    </footer>
+    </div>
+</div></section></div>
+    </div>
+
+  <!-- Pattern | custom_band -->
+
+
+
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+    
+    
+    
+                
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-background-align="center-center" data-rh-band-collapse="no-padding-top"  data-rh-background="white">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><div class="rh-band-content"    
+                     data-rh-layout="stacked center"                ><!-- Subpattern | standard_text -->
+
+
+                                
+        
+        
+                
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Card layout -->
+<div class="rh-card--layout "     data-rh-background="white"
+            data-rh-theme="light"
+        
+        data-rh-bg-align="cover"
+    
+        data-rh-layout="stacked"
+
+            data-eq-pts="xxs-box: 0, xs-box: 202, sm-box: 302, md-box: 402, lg-box: 502, xl-box: 602, xxl-box: 702, xxxl-box: 768, box-edges: 262"
+    data-rh-justify="justify"><div class="rh-card-content"    data-rh-layout="min-stacked"
+    >
+                            <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="center"    >
+        <h1>Got questions?</h1><p>Find the answers you need to prepare for Red Hat Summit and AnsibleFest.&nbsp;</p>
+    </div>
+                    </div>
+    <footer class="rh-card-footer"            >
+                            <!-- Component | CTA -->
+
+
+    
+                        
+    
+    <span class="rh-cta--component"                  data-rh-align="center"                data-rh-cta-type="secondary"
+    >
+        <a class="rh-cta-link"                 href="/en/summit/about/faq"                        data-analytics-linkType="cta"
+        data-analytics-text="Browse our FAQ"                aria-describedby="rh-fb4e9"     >Browse our FAQ<span aria-hidden="true"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><title>Icon-Red_Hat-Directional-A-Black-RGB</title><path d="M29.74 17.95v-.1a.9.9 0 0 0-.03-.086c-.01-.025-.016-.05-.027-.075a.72.72 0 0 0-.148-.223l-3.5-3.5-3.5-3.5a.75.75 0 1 0-1.06 1.06l2.86 2.86 2.86 2.86H7a.75.75 0 0 0 0 1.5h20.19l-2.22 2.223-3.5 3.5a.75.75 0 1 0 1.06 1.06l3.5-3.5 3.5-3.5c.007-.007.01-.016.016-.023a.738.738 0 0 0 .147-.22l.005-.02a.76.76 0 0 0 .045-.236.23.23 0 0 0 .007-.03c0-.017-.008-.032-.01-.05z"/></svg></span></a>
+    </span>
+                    </footer>
+    </div>
+</div></section></div>
+    </div>
+
+  <!-- Pattern | custom_band -->
+    
+
+
+
+    
+        
+
+
+
+
+
+
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-background-align="center-center" data-rh-band-collapse="no-padding-bottom"  data-rh-background="gray">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><header class="rh-band-header"        data-rh-layout="only8 center" data-rh-theme="">
+                                                            <!-- Component | Band_header -->
+
+
+    
+                
+                                                                
+    <div class="rh-band-header--component" data-rh-align=center        ><h2 class="rh-band-header-headline" >Stay updated</h2>
+</div>
+                                                    </header><div class="rh-band-content"    
+                     data-rh-layout="only8 flex center"                ><!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="center"    >
+        <p>Sign up to receive the latest information on registration, event details, and pricing.</p>
+    </div>
+                            </div>
+                            <div class="rh-group-footer"         >
+                                    <!-- Component | CTA -->
+
+
+    
+                        
+    
+    <span class="rh-cta--component"                  data-rh-align="center"                data-rh-cta-type="secondary"
+    >
+        <a class="rh-cta-link"                 href="/en/summit/connect/stay-updated"                        data-analytics-linkType="cta"
+        data-analytics-text="Opt into emails"                    >Opt into emails<span aria-hidden="true"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><title>Icon-Red_Hat-Directional-A-Black-RGB</title><path d="M29.74 17.95v-.1a.9.9 0 0 0-.03-.086c-.01-.025-.016-.05-.027-.075a.72.72 0 0 0-.148-.223l-3.5-3.5-3.5-3.5a.75.75 0 1 0-1.06 1.06l2.86 2.86 2.86 2.86H7a.75.75 0 0 0 0 1.5h20.19l-2.22 2.223-3.5 3.5a.75.75 0 1 0 1.06 1.06l3.5-3.5 3.5-3.5c.007-.007.01-.016.016-.023a.738.738 0 0 0 .147-.22l.005-.02a.76.76 0 0 0 .045-.236.23.23 0 0 0 .007-.03c0-.017-.008-.032-.01-.05z"/></svg></span></a>
+    </span>
+                            </div>
+            </div>
+<!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="center"    >
+        <p>Follow @RedHatSummit and @RedHat on social media.<br>Use #RHSummit and #AnsibleFest to join the conversation.</p>
+    </div>
+                            </div>
+                    </div>
+</div></section></div>
+    </div>
+
+        </div>
+                  </div>
+    <section class="dx-bg-gray-5 dx-pt-8 dx-pb-8" section-properties-enabled>
+    
+    
+          <div class="dx-container ">
+          <div class="dx-row  dx-justify-center ">
+                            <div class="dx-col-2 rhpb-region  dx-flex" style="flex-direction:column">
+            
+  <!-- Pattern | custom_band -->
+    
+
+
+
+    
+            
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-background-align="center-center" data-rh-band-collapse="no-padding"  data-rh-background="transparent">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><div class="rh-band-content"    
+                                                                                                                                                                data-rh-layout="spacious-gallery2 center"                ><!-- Subpattern | image_box -->
+
+                
+                            
+                
+        
+            
+        
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="stacked"     >
+                                    <!-- Component | Image_embed -->
+
+    
+
+
+    <div class="rh-image-embed--component"
+                 data-rh-align="logo-short"                
+                        >
+
+        <div class="rh-image-embed-container">
+                            <a class="rh-image-embed-link" href="https://twitter.com/RedHatSummit">
+                                                                <div class="rh-image-embed-span" >
+
+                                                    <img class="rh-image-embed-img" src="/rhdc/managed-files/Icon-Twitter_0.svg"                                                  loading="lazy"     >
+                        
+                    </div>
+                                          </a>
+                                </div>
+            </div>
+                            </div>
+                    </div>
+</div></section></div>
+    </div>
+
+          </div>
+                            <div class="dx-col-2 rhpb-region  dx-flex" style="flex-direction:column">
+            
+  <!-- Pattern | custom_band -->
+    
+
+
+
+    
+            
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-background-align="center-center" data-rh-band-collapse="no-padding"  data-rh-background="transparent">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><div class="rh-band-content"    
+                                                                                                                                                                data-rh-layout="spacious-gallery2 center"                ><!-- Subpattern | image_box -->
+
+                
+                            
+                
+        
+            
+        
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="stacked"     >
+                                    <!-- Component | Image_embed -->
+
+    
+
+
+    <div class="rh-image-embed--component"
+                 data-rh-align="logo-short"                
+                        >
+
+        <div class="rh-image-embed-container">
+                            <a class="rh-image-embed-link" href="https://www.linkedin.com/company/red-hat/">
+                                                                <div class="rh-image-embed-span" >
+
+                                                    <img class="rh-image-embed-img" src="/rhdc/managed-files/Icon-LinkedIn.svg"                                                  loading="lazy"     >
+                        
+                    </div>
+                                          </a>
+                                </div>
+            </div>
+                            </div>
+                    </div>
+</div></section></div>
+    </div>
+
+          </div>
+                            <div class="dx-col-2 rhpb-region  dx-flex" style="flex-direction:column">
+            
+  <!-- Pattern | custom_band -->
+    
+
+
+
+    
+            
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-background-align="center-center" data-rh-band-collapse="no-padding"  data-rh-background="transparent">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><div class="rh-band-content"    
+                                                                                                                                                                data-rh-layout="spacious-gallery2 center"                ><!-- Subpattern | image_box -->
+
+                
+                            
+                
+        
+            
+        
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="stacked"     >
+                                    <!-- Component | Image_embed -->
+
+    
+
+
+    <div class="rh-image-embed--component"
+                 data-rh-align="logo-short"                
+                        >
+
+        <div class="rh-image-embed-container">
+                            <a class="rh-image-embed-link" href="https://www.facebook.com/redhatsummit/">
+                                                                <div class="rh-image-embed-span" >
+
+                                                    <img class="rh-image-embed-img" src="/rhdc/managed-files/Icon-Facebook.svg"                                                  loading="lazy"     >
+                        
+                    </div>
+                                          </a>
+                                </div>
+            </div>
+                            </div>
+                    </div>
+</div></section></div>
+    </div>
+
+          </div>
+                            <div class="dx-col-2 rhpb-region  dx-flex" style="flex-direction:column">
+            
+  <!-- Pattern | custom_band -->
+    
+
+
+
+    
+            
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-background-align="center-center" data-rh-band-collapse="no-padding"  data-rh-background="transparent">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><div class="rh-band-content"    
+                                                                                                                                                                data-rh-layout="spacious-gallery2 center"                ><!-- Subpattern | image_box -->
+
+                
+                            
+                
+        
+            
+        
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="stacked"     >
+                                    <!-- Component | Image_embed -->
+
+    
+
+
+    <div class="rh-image-embed--component"
+                 data-rh-align="logo-short"                
+                        >
+
+        <div class="rh-image-embed-container">
+                            <a class="rh-image-embed-link" href="https://www.instagram.com/redhatinc/?hl=en">
+                                                                <div class="rh-image-embed-span" >
+
+                                                    <img class="rh-image-embed-img" src="/rhdc/managed-files/Icon-Instagram.svg"                                                  loading="lazy"     >
+                        
+                    </div>
+                                          </a>
+                                </div>
+            </div>
+                            </div>
+                    </div>
+</div></section></div>
+    </div>
+
+          </div>
+                            <div class="dx-col-2 rhpb-region  dx-flex" style="flex-direction:column">
+            
+  <!-- Pattern | custom_band -->
+    
+
+
+
+    
+            
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-background-align="center-center" data-rh-band-collapse="no-padding"  data-rh-background="transparent">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><div class="rh-band-content"    
+                                                                                                                                                                data-rh-layout="spacious-gallery2 center"                ><!-- Subpattern | image_box -->
+
+                
+                            
+                
+        
+            
+        
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="stacked"     >
+                                    <!-- Component | Image_embed -->
+
+    
+
+
+    <div class="rh-image-embed--component"
+                 data-rh-align="logo-short"                
+                        >
+
+        <div class="rh-image-embed-container">
+                            <a class="rh-image-embed-link" href="https://www.redhat.com/en/blog">
+                                                                <div class="rh-image-embed-span" >
+
+                                                    <img class="rh-image-embed-img" src="/rhdc/managed-files/Icon-RedHatBlog.svg"                                                  loading="lazy"     >
+                        
+                    </div>
+                                          </a>
+                                </div>
+            </div>
+                            </div>
+                    </div>
+</div></section></div>
+    </div>
+
+          </div>
+              </div>
+    </div>
+  </section>
+  <section class="dx-bg-white dx-pt-8 dx-pb-8" section-properties-enabled>
+    
+    
+          <div class="dx-container ">
+          <div class="dx-row  dx-justify-center  match-region-heights ">
+                            <div class="dx-col-12 md:dx-col-12 rhpb-region  dx-flex" style="flex-direction:column">
+            
+  <!-- Subpattern | simple_text -->
+
+                
+                    
+        
+                    
+                    
+                    
+            
+                    
+    
+            
+    
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | Band_header -->
+
+
+    
+                
+                                                
+    <div class="rh-band-header--hash-offset" data-rh-hash="true"id="numbers-from-red-hat-summit-2023"></div><div class="rh-band-header--component" data-rh-align=left        ><h2 class="rh-band-header-headline" >Numbers from Red Hat Summit 2023</h2>
+</div>
+                            </div>
+                    </div>
+
+
+          </div>
+                            <div class="dx-col-6 md:dx-col-3 rhpb-region  dx-flex" style="flex-direction:column">
+            
+  <!-- Subpattern | simple_text -->
+
+                
+                    
+        
+                    
+                    
+                    
+            
+        
+                
+            
+    
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="left"    >
+        <h1 style="color:#ee0000;">1,300+</h1><h3 style="margin-top:-20px;">Companies attended</h3>
+    </div>
+                            </div>
+                    </div>
+
+
+          </div>
+                            <div class="dx-col-6 md:dx-col-3 rhpb-region  dx-flex" style="flex-direction:column">
+            
+  <!-- Subpattern | simple_text -->
+
+                
+                    
+        
+                    
+                    
+                    
+            
+        
+                
+            
+    
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="left"    >
+        <h1 style="color:#ee0000;">71</h1><h3 style="margin-top:-20px;">Countries represented</h3>
+    </div>
+                            </div>
+                    </div>
+
+
+          </div>
+                            <div class="dx-col-6 md:dx-col-3 rhpb-region  dx-flex" style="flex-direction:column">
+            
+  <!-- Subpattern | simple_text -->
+
+                
+                    
+        
+                    
+                    
+                    
+            
+        
+                
+            
+    
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="left"    >
+        <h1 style="color:#ee0000;">330+</h1><h3 style="margin-top:-20px;">Sessions &amp; labs</h3>
+    </div>
+                            </div>
+                    </div>
+
+
+          </div>
+                            <div class="dx-col-6 md:dx-col-3 rhpb-region  dx-flex" style="flex-direction:column">
+            
+  <!-- Subpattern | simple_text -->
+
+                
+                    
+        
+                    
+                    
+                    
+            
+        
+                
+            
+    
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"         data-eq-pts="xxs-hr: 0, md-hr: 360, lg-hr: 450"
+                 data-rh-align="left"    >
+        <h1 style="color:#ee0000;">76</h1><h3 style="margin-top:-20px;">Sponsors</h3>
+    </div>
+                            </div>
+                    </div>
+
+
+          </div>
+              </div>
+    </div>
+  </section>
+  <section data-rh-theme="dark" class="dx-pt-8 dx-pb-8 dx-relative" section-properties-enabled>
+    <img class='dx-hidden md:dx-block dx-absolute dx-h-full dx-w-full dx-top-0 dx-object-cc dx-object-cover' src='/rhdc/managed-files/Homepage-CTA-Band.png'>
+    <img class='md:dx-hidden dx-absolute dx-h-full dx-w-full dx-top-0 dx-object-cc dx-object-none' src='/rhdc/managed-files/Homepage-CTA-Band.png'>
+          <div class="dx-container ">
+          <div class="dx-row  dx-justify-around ">
+                            <div class="dx-col-12 md:dx-col-8 rhpb-region  dx-flex" style="flex-direction:column">
+            
+  <!-- Subpattern | simple_text -->
+
+                
+                    
+                    
+                    
+                    
+                    
+            
+                    
+    
+                                
+        
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"              data-rh-layout="stacked"            data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="min-stacked"     >
+                                    <!-- Component | Band_header -->
+
+
+    
+                
+                                                
+    <div class="rh-band-header--hash-offset" data-rh-hash="true"id="reserve-your-spot-at-red-hat-summit-and-ansiblefest-2024"></div><div class="rh-band-header--component" data-rh-align=center        ><h2 class="rh-band-header-headline" id="rh-cmo10">Reserve your spot at Red Hat Summit and AnsibleFest 2024</h2>
+</div>
+                            </div>
+                            <div class="rh-group-footer"         >
+                                    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout"                         data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620"
+>
+                            <div class="rh-group-body"      data-rh-layout="buttons-flex-center-end"     >
+                                    <!-- Subpattern | simple_cta -->
+
+    <!-- Component | CTA -->
+
+
+    
+                        
+    
+    <span class="rh-cta--component"                                 data-rh-cta-type="primary"
+    >
+        <a class="rh-cta-link"                 href="https://reg.experiences.redhat.com/flow/redhat/sum24/loginGenAttendee/page/start"                target="_self"        data-analytics-linkType="cta"
+        data-analytics-text="Register today"                aria-describedby="rh-cmo10"     >Register today</a>
+    </span>
+                            </div>
+                    </div>
+                            </div>
+            </div>
+
+
+          </div>
+              </div>
+    </div>
+  </section>
+          <div class="one-column">
+      
+      
+                            <div  class="content-region">
+          
+  <!-- Pattern | raw_html -->
+
+          <div class="one-column">
+      
+      
+                            <div class="content-region">
+              
+            <rh-footer data-analytics-region="page-footer"><a slot="logo" href="https://redhat.com/en" data-analytics-category="Footer" data-analytics-text="Logo">
+        <img alt="Red Hat logo" src="https://static.redhat.com/libs/redhat/brand-assets/2/corp/logo--on-dark.svg" loading="lazy" /></a>
+    <rh-footer-social-link slot="social-links" icon="twitter"><a href="https://www.twitter.com/redhatsummit" data-analytics-region="social-links-exit" data-analytics-category="Footer|social-links" data-analytics-text="Twitter">Twitter
+        </a>
+    </rh-footer-social-link><rh-footer-social-link slot="social-links" icon="facebook"><a href="https://www.facebook.com/redhatsummit" data-analytics-region="social-links-exit" data-analytics-category="Footer|social-links" data-analytics-text="Facebook">Facebook
+        </a>
+    </rh-footer-social-link><rh-footer-social-link slot="social-links" icon="youtube"><a href="https://www.youtube.com/user/redhatsummit" data-analytics-region="social-links-exit" data-analytics-category="Footer|social-links" data-analytics-text="YouTube">YouTube
+        </a>
+    </rh-footer-social-link><rh-footer-social-link slot="social-links" icon="instagram"><a href="https://www.instagram.com/redhatinc" data-analytics-region="social-links-exit" data-analytics-category="Footer|social-links" data-analytics-text="Instagram">Instagram
+        </a>
+    </rh-footer-social-link><rh-footer-social-link slot="social-links" icon="linkedin"><a href="https://www.linkedin.com/company/red-hat" data-analytics-region="social-links-exit" data-analytics-category="Footer|social-links" data-analytics-text="LinkedIn">LinkedIn
+        </a>
+    </rh-footer-social-link><!-- Red Hat Summit --><h3 slot="links" data-analytics-text="Red Hat Summit">Red Hat Summit</h3>
+    <ul slot="links"><li>
+            <a href="/en/summit" title="Red Hat Summit 2024" data-analytics-category="Footer|Red Hat Summit" data-analytics-text="Home">Home</a>
+        </li>
+        <li>
+            <a href="/en/summit/attend" title="Why attend Red Hat Summit 2024" data-analytics-category="Footer|Red Hat Summit" data-analytics-text="Why attend">Why attend</a>
+        </li>
+        <li>
+            <a href="/en/summit/pricing" title="Pricing" data-analytics-category="Footer|Red Hat Summit" data-analytics-text="Pricing">Pricing</a>
+        </li>
+        <li>
+            <a href="/en/summit/about/faq" title="FAQ" data-analytics-category="Footer|Red Hat Summit" data-analytics-text="FAQ">FAQ</a>
+        </li>
+    </ul><h3 slot="links"></h3>
+    <ul slot="links"><li>
+            <a href="/en/summit/submit-a-session" title="Speakers" data-analytics-category="Footer|Red Hat Summit" data-analytics-text="Speakers">Speakers</a>
+        </li>
+        <li>
+            <a href="/en/summit/sponsors" title="Sponsors" data-analytics-category="Footer|Red Hat Summit" data-analytics-text="Sponsors">Sponsors</a>
+        </li>
+        <li>
+            <a href="/en/summit/about/terms-and-conditions" title="Terms and conditions" data-analytics-category="Footer|Red Hat Summit" data-analytics-text="Terms and conditions">Terms and conditions</a>
+        </li>
+        <li>
+            <a href="/en/summit/about/terms-and-conditions" title="Code of behavior" data-analytics-category="Footer|Red Hat Summit" data-analytics-text="Code of behavior">Code of behavior</a>
+        </li>
+    </ul><!-- Get connected --><h3 slot="links" data-analytics-text="Get connected">Get connected</h3>
+    <ul slot="links"><li>
+            <a href="/en/summit/connect/stay-updated" title="Stay updated" data-analytics-category="Footer|Get connected" data-analytics-text="Stay updated">Stay updated</a>
+        </li>
+        <li>
+            <a href="mailto:rh-summit@itagroup.com" title="Contact us" data-analytics-category="Footer|Get connected" data-analytics-text="Contact us">Contact us</a>
+        </li>
+    </ul><!-- Regional Events --><!--<h3 slot="links" data-analytics-text="Regional events">Regional events</h3>
+    <ul slot="links">
+        <li>
+            <a 
+            href="/en/summit/connect" 
+            title="Red Hat Summit: Connect Home" 
+            data-analytics-category="Footer|Regional events" 
+            data-analytics-text="Home">Home</a>
+        </li>
+        <li>
+            <a 
+            href="/en/summit/connect/apac" 
+            title="Asia Pacific" 
+            data-analytics-category="Footer|Regional events" 
+            data-analytics-text="Asia Pacific">Asia Pacific</a>
+        </li>
+        <li>
+            <a 
+            href="/en/summit/connect/emea" 
+            title="Europe, Middle East, and Africa" 
+            data-analytics-category="Footer|Regional events" 
+            data-analytics-text="Europe, Middle East, and Africa">Europe, Middle East, and Africa</a>
+        </li>
+        <li>
+            <a 
+            href="/en/summit/connect/na" 
+            title="North America" 
+            data-analytics-category="Footer|Regional events" 
+            data-analytics-text="North America">North America</a>
+        </li>
+    </ul>--><rh-footer-block slot="main-secondary"><h3 slot="header" data-analytics-text="Red Hat Summit">Red Hat Summit</h3>
+        <p>Red Hat Summit is the premier enterprise open source event for IT professionals to learn, collaborate, and innovate on technologies from the datacenter and public cloud to the edge and beyond.</p>
+    </rh-footer-block></rh-footer></div>
+                  </div>
+  
+
+
+
+        </div>
+                  </div>
+  
+  </div>
+</article>
+
+  </div>
+
+
+<rh-global-footer slot="global"><h3 slot="links-primary"
+      hidden
+      data-analytics-text="Red Hat legal and privacy links"
+    >Red Hat legal and privacy links</h3><ul slot="links-primary" data-analytics-region="page-footer-bottom-primary"><li><a href="/en/about/company"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="About Red Hat"
+          >About Red Hat</a></li><li><a href="/en/jobs"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="Jobs"
+          >Jobs</a></li><li><a href="/en/events"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="Events"
+          >Events</a></li><li><a href="/en/about/office-locations"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="Locations"
+          >Locations</a></li><li><a href="/en/contact"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="Contact Red Hat"
+          >Contact Red Hat</a></li><li><a href="/en/blog"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="Red Hat Blog"
+          >Red Hat Blog</a></li><li><a href="/en/about/our-culture/diversity-equity-inclusion"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text=""
+          >Diversity, equity, and inclusion</a></li><li><a href="https://coolstuff.redhat.com/"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="Cool Stuff Store"
+          >Cool Stuff Store</a></li><li><a href="https://www.redhat.com/en/summit"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="Red Hat Summit"
+          >Red Hat Summit</a></li></ul><rh-footer-copyright slot="links-secondary"></rh-footer-copyright><h3 slot="links-secondary"
+      hidden
+      data-analytics-text="Red Hat legal and privacy links"
+    >Red Hat legal and privacy links</h3><ul slot="links-secondary" data-analytics-region="page-footer-bottom-secondary"><li><a href="/en/about/privacy-policy"
+                data-analytics-category="Footer|Red Hat legal and privacy links"
+                data-analytics-text="Privacy statement"
+              >Privacy statement</a></li><li><a href="/en/about/terms-use"
+                data-analytics-category="Footer|Red Hat legal and privacy links"
+                data-analytics-text="Terms of use"
+              >Terms of use</a></li><li><a href="/en/about/all-policies-guidelines"
+                data-analytics-category="Footer|Red Hat legal and privacy links"
+                data-analytics-text="All policies and guidelines"
+              >All policies and guidelines</a></li><li><a href="/en/about/digital-accessibility"
+                data-analytics-category="Footer|Red Hat legal and privacy links"
+                data-analytics-text="Digital accessibility"
+              >Digital accessibility</a></li><li><span id="teconsent"></span></li></ul></rh-global-footer>
+  </div>
+
+    <script type="text/javascript">if (("undefined" !== typeof _satellite) && ("function" === typeof _satellite.pageBottom)) {_satellite.pageBottom();}</script>
+
+    <script src="/rhdc/system-files/js/js_2VBQ-pVMu6f2wTpiVU-UkPZi1tdo-vnhayXcoLSjO9U.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=rhdc&amp;include=eJyNVFGW2yAMvJAdDtGD8ATItroYUSFn456-OMZbd7dJ9scW0jCCGT1kCt5Cgrgq-WLkn6XFEKJdCkonr3GOVXn-DrKQoi0I4qfvwFGEpStrUZyNg4J1k93-diEzRnYQf0zCM3bv6GQyecA-wZVGUOLUkjL14D0vSfsgnAO_p3vve8d-Z_mS6IsXylq-Fn6WfkIIhzIhsMlcKrfOJzAPQ-8hXeHMMDAryrnl6f4qS9EqzMVzKpj0MtfaiHKBTDuWqX5a1nhBqFrecz5S3dBFWHlRG6h4vqKshhN6jl2tka4WZ4fBeMh3bQSDnUBtmWALI7nNgnbE_1bDrV-UYun3Pn8x6DdGm6u4KEpYTNE1Hp54hRbhrxaMwktusYNUaZqgz7qWDJ7S-BzkwL9t7CmUF2z0-yXZEPHm-PYcNAqFD8S2g1xEu0tkmiNb-iGmLC6DVtGT_XzFz1DBsQpdpxjGQ0lMKOTbiuY6GrvPJ3UPH0COsM5ZCnV56N4AnLSOSvVTH02HQj3NR9G_YSBl2Sy-RBonDdsr8EwtXTOPAnlaH7XYxmWuvGAGilWVSxvYP26L0sk"></script>
+<script src="/modules/custom/rhdc_analytics/libraries/dist/js/rhdc_analytics_eddl_user.min.js?s871ja" type="text/javascript"></script>
+<script src="/modules/custom/rhdc_analytics/libraries/dist/js/rhdc_analytics_eddl_bottom.min.js?s871ja" type="text/javascript"></script>
+<script src="/modules/custom/rhdc_analytics/libraries/dist/js/rhdc_analytics_eddl_site_search.min.js?s871ja" type="text/javascript"></script>
+<script src="/modules/custom/rhdc_analytics/libraries/dist/js/rhdc_analytics_eddl_error.min.js?s871ja" type="text/javascript"></script>
+<script src="/rhdc/system-files/js/js_gClXr2YqzmoklhLvpYGqO_9Pi5F5BtEaGXc2MdPU2ZI.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=rhdc&amp;include=eJyNVFGW2yAMvJAdDtGD8ATItroYUSFn456-OMZbd7dJ9scW0jCCGT1kCt5Cgrgq-WLkn6XFEKJdCkonr3GOVXn-DrKQoi0I4qfvwFGEpStrUZyNg4J1k93-diEzRnYQf0zCM3bv6GQyecA-wZVGUOLUkjL14D0vSfsgnAO_p3vve8d-Z_mS6IsXylq-Fn6WfkIIhzIhsMlcKrfOJzAPQ-8hXeHMMDAryrnl6f4qS9EqzMVzKpj0MtfaiHKBTDuWqX5a1nhBqFrecz5S3dBFWHlRG6h4vqKshhN6jl2tka4WZ4fBeMh3bQSDnUBtmWALI7nNgnbE_1bDrV-UYun3Pn8x6DdGm6u4KEpYTNE1Hp54hRbhrxaMwktusYNUaZqgz7qWDJ7S-BzkwL9t7CmUF2z0-yXZEPHm-PYcNAqFD8S2g1xEu0tkmiNb-iGmLC6DVtGT_XzFz1DBsQpdpxjGQ0lMKOTbiuY6GrvPJ3UPH0COsM5ZCnV56N4AnLSOSvVTH02HQj3NR9G_YSBl2Sy-RBonDdsr8EwtXTOPAnlaH7XYxmWuvGAGilWVSxvYP26L0sk"></script>
+<script src="/modules/contrib/webrh/@cpelements/pfe-navigation/dist/pfe-navigation.min.js" type="module"></script>
+<script src="/modules/contrib/webrh/@cpelements/rh-account-dropdown/dist/rh-account-dropdown.min.js" type="module"></script>
+<script src="/modules/contrib/red_hat_shared_libs/dist/rhds-elements/modules/rh-global-footer-entry.js" type="module"></script>
+<script src="/modules/contrib/red_hat_shared_libs/dist/rhds-elements/modules/rh-footer-entry.js" type="module"></script>
+<script src="/rhdc/system-files/js/js_0EwJ9JjmxPBtAJD7w8RstktR2x0GTWGt2muqM_tK9Es.js?scope=footer&amp;delta=10&amp;language=en&amp;theme=rhdc&amp;include=eJyNVFGW2yAMvJAdDtGD8ATItroYUSFn456-OMZbd7dJ9scW0jCCGT1kCt5Cgrgq-WLkn6XFEKJdCkonr3GOVXn-DrKQoi0I4qfvwFGEpStrUZyNg4J1k93-diEzRnYQf0zCM3bv6GQyecA-wZVGUOLUkjL14D0vSfsgnAO_p3vve8d-Z_mS6IsXylq-Fn6WfkIIhzIhsMlcKrfOJzAPQ-8hXeHMMDAryrnl6f4qS9EqzMVzKpj0MtfaiHKBTDuWqX5a1nhBqFrecz5S3dBFWHlRG6h4vqKshhN6jl2tka4WZ4fBeMh3bQSDnUBtmWALI7nNgnbE_1bDrV-UYun3Pn8x6DdGm6u4KEpYTNE1Hp54hRbhrxaMwktusYNUaZqgz7qWDJ7S-BzkwL9t7CmUF2z0-yXZEPHm-PYcNAqFD8S2g1xEu0tkmiNb-iGmLC6DVtGT_XzFz1DBsQpdpxjGQ0lMKOTbiuY6GrvPJ3UPH0COsM5ZCnV56N4AnLSOSvVTH02HQj3NR9G_YSBl2Sy-RBonDdsr8EwtXTOPAnlaH7XYxmWuvGAGilWVSxvYP26L0sk"></script>
+<script src="/modules/contrib/webrh/@patternfly/pfe-content-set/dist/pfe-content-set.min.js" type="module"></script>
+<script src="/rhdc/system-files/js/js_L9SvFL07qOllLhYn2YX7GTvCcK2F7nifimZP-ltIL9I.js?scope=footer&amp;delta=12&amp;language=en&amp;theme=rhdc&amp;include=eJyNVFGW2yAMvJAdDtGD8ATItroYUSFn456-OMZbd7dJ9scW0jCCGT1kCt5Cgrgq-WLkn6XFEKJdCkonr3GOVXn-DrKQoi0I4qfvwFGEpStrUZyNg4J1k93-diEzRnYQf0zCM3bv6GQyecA-wZVGUOLUkjL14D0vSfsgnAO_p3vve8d-Z_mS6IsXylq-Fn6WfkIIhzIhsMlcKrfOJzAPQ-8hXeHMMDAryrnl6f4qS9EqzMVzKpj0MtfaiHKBTDuWqX5a1nhBqFrecz5S3dBFWHlRG6h4vqKshhN6jl2tka4WZ4fBeMh3bQSDnUBtmWALI7nNgnbE_1bDrV-UYun3Pn8x6DdGm6u4KEpYTNE1Hp54hRbhrxaMwktusYNUaZqgz7qWDJ7S-BzkwL9t7CmUF2z0-yXZEPHm-PYcNAqFD8S2g1xEu0tkmiNb-iGmLC6DVtGT_XzFz1DBsQpdpxjGQ0lMKOTbiuY6GrvPJ3UPH0COsM5ZCnV56N4AnLSOSvVTH02HQj3NR9G_YSBl2Sy-RBonDdsr8EwtXTOPAnlaH7XYxmWuvGAGilWVSxvYP26L0sk"></script>
+<script src="/modules/contrib/red_hat_shared_libs/dist/rhds-elements/modules/rh-table-entry.js" type="module"></script>
+<script src="/modules/contrib/red_hat_shared_libs/dist/rhds-elements/modules/rh-cta-entry.js" type="module"></script>
+
+    <script type="text/javascript" src="/ux/webdms/js/scripts.min.js"></script>
+<script type="text/javascript" src="/ux/dx-web/js/projects/2024-summit-custom-hero.min.js"></script>
+
+  </body>
+</html>
