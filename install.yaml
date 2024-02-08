@@ -1,5 +1,6 @@
 - name: "Install teh apache webserver"
-  hosts: "all"
+  hosts:
+    - "all"
   user: "devops"
   become: true
   become_user: "root"
@@ -7,25 +8,25 @@
   vars_files:
     - "config.yaml"
   tasks:
-  - block:
-    - name: "Make sure appache is installed"
-      ansible.builtin.package:
-        name: "httpd"
-        state: "latest"
+    - block:
+      - name: "Make sure appache is installed"
+        ansible.builtin.package:
+          name: "httpd"
+          state: "latest"
 
-    - name: "Open firewall"
-      ansible.posix.firewalld:
-        port: "{{ config[inventory_hostname].port }}/tcp"
-        state: "enabled"
-      when: "config[inventory_hostname].port is defined"
+      - name: "Open firewall"
+        ansible.posix.firewalld:
+          port: "{{ config[inventory_hostname].port }}/tcp"
+          state: "enabled"
+        when: "config[inventory_hostname].port is defined"
 
-    - name: "Open firewall"
-      ansible.posix.firewalld:
-        port: "80/tcp"
-        state: "enabled"
-      when: "config[inventory_hostname].port is not defined"
+      - name: "Open firewall"
+        ansible.posix.firewalld:
+          port: "80/tcp"
+          state: "enabled"
+        when: "config[inventory_hostname].port is not defined"
 
-    always:
-      - include_tasks: "get_result.yaml"
-        vars:
-          stage: "installation"
+      always:
+        - include_tasks: "get_result.yaml"
+          vars:
+            stage: "installation"

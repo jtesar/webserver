@@ -1,4 +1,3 @@
 - import_playbook: "install.yaml"
 - import_playbook: "configure.yaml"
-- import_playbook: "cleanup.yaml"
  

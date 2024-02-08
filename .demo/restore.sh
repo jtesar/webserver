@@ -1,3 +1,6 @@
+echo -n restoring web2 ...
 ssh root@web2 'chattr -i /etc'
+echo done
+echo -n restoring web3 ...
 ssh root@web3 'chattr -i /var/www'
-ansible-playbook cleanup.yaml
+echo done

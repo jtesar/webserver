@@ -8,7 +8,8 @@
         host_list: "{{ failed_hosts | default([]) }}"
 
 - name: "Remove and cleanup"
-  hosts: "hosts_to_cleanup"
+  hosts: 
+    - "hosts_to_cleanup"
   user: "devops"
   become: true
   become_user: "root"

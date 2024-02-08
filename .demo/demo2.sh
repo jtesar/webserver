@@ -1,14 +1,15 @@
 #!/bin/bash
-echo Generating $1
 paragraph=""
 IFS=''
 if [[ $1 == "" ]]; then
   echo missing paramater
   exit -1
 fi
+echo Generating $1
+read n
 > $1
 tmux send-keys -t0 F5
-exec 3<> .demo/$1.demo
+exec 3<> .demo/$1.demo2
 read -r -u 3 line
 while [[ $line != '----' ]]; do
   while [[ $line != '--' ]]; do

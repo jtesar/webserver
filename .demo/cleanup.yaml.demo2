@@ -1,4 +1,12 @@
---
+- name: "Add failed hosts"
+  hosts: "localhost"
+  gather_facts: false
+  tasks:
+    - include_tasks: "add_hosts.yaml"
+      vars:
+        group_name: "hosts_to_cleanup"
+        host_list: "{{ failed_hosts | default([]) }}"
+
 - name: "Remove and cleanup"
   hosts: 
     - "all"
@@ -9,20 +17,17 @@
   ignore_errors: true
   vars_files:
     - "config.yaml"
---
   tasks:
       - name: "Stop the apache webserver"
         service:
           name: "httpd"
           state: "stopped"
           enabled: false
---
 
       - name: "Remove the apache web server"
         ansible.builtin.package:
           name: "httpd"
           state: "absent"
---
 
       - name: "Close firewall"
         ansible.posix.firewalld:
@@ -31,7 +36,6 @@
           immediate: true
           permanent: true
         when: "config[inventory_hostname].port is defined"
---
 
       - name: "Close firewall"
         ansible.posix.firewalld:
@@ -40,7 +44,6 @@
           immediate: true
           permanent: true
         when: "config[inventory_hostname].port is not defined"
---
 
       - name: "Remove content"
         file:
