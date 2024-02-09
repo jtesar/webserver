@@ -12,7 +12,7 @@
 --
   tasks:
 --
-      - name: "Make sure appache is installed"
+      - name: "Make sure apache is installed"
         ansible.builtin.package:
           name: "httpd"
           state: "latest"
