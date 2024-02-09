@@ -9,7 +9,7 @@
 
 - name: "Remove and cleanup"
   hosts: 
-    - "hosts_to_cleanup"
+    - "failed_hosts"
   user: "devops"
   become: true
   become_user: "root"
@@ -49,4 +49,3 @@
         file:
           state: "absent"
           path: "/var/www/html"
-
