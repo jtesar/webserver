@@ -1,15 +1,4 @@
-[webservers]
 web1
 web2
 web3
 web4
-
-[hosts_to_cleanup]
-web1
-web2
-web3
-web4
-
-[hosts_to_configure]
-web4
-web1

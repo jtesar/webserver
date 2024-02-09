@@ -47,9 +47,9 @@ ServerRoot "/etc/httpd"
 Listen 80
 --
 {% if config[inventory_hostname] is defined %} 
-Listen {{ config[ansible_hostname].port }}
+Listen {{ config[inventory_hostname].port }}
 {% else %}
-Listen 80
+Listen {{ config['default'].port }}
 {% endif %}
 --
 #
@@ -109,7 +109,7 @@ ServerName localhost:80
 {% if config[ansible_hostname] is defined %}
 ServerName {{ config[inventory_hostname].servername }}:{{ config[inventory_hostname].port }}
 {% else %}
-ServerName {{ ansible_fqdn }}:80
+ServerName {{ config['default'].servername }}:{{ config['default'].port }}
 {% endif %}
 --
 #

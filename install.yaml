@@ -1,4 +1,4 @@
-- name: "Install teh apache webserver"
+- name: "Install the apache webserver"
   hosts:
     - "all"
   user: "devops"
@@ -22,7 +22,7 @@
 
       - name: "Open firewall"
         ansible.posix.firewalld:
-          port: "80/tcp"
+          port: "config['default'].port }}/tcp"
           state: "enabled"
         when: "config[inventory_hostname].port is not defined"
 

@@ -46,7 +46,7 @@ ServerRoot "/etc/httpd"
 {% if config[inventory_hostname] is defined %} 
 Listen {{ config[inventory_hostname].port }}
 {% else %}
-Listen 80
+Listen {{ config['default'].port }}
 {% endif %}
 #
 # Dynamic Shared Object (DSO) Support
@@ -100,11 +100,10 @@ ServerAdmin root@localhost
 # If your host doesn't have a registered DNS name, enter its IP address here.
 #
 
-ServerName localhost:80
-{% if config[inventory_hostname] is defined %}
+{% if config[ansible_hostname] is defined %}
 ServerName {{ config[inventory_hostname].servername }}:{{ config[inventory_hostname].port }}
 {% else %}
-ServerName {{ ansible_fqdn }}:80
+ServerName {{ config['default'].servername }}:{{ config['default'].port }}
 {% endif %}
 #
 # Deny access to the entirety of your server's filesystem. You must
