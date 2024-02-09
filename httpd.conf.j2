@@ -43,7 +43,6 @@ ServerRoot "/etc/httpd"
 #
 #Listen 12.34.56.78:80
 
-Listen 80
 {% if config[inventory_hostname] is defined %} 
 Listen {{ config[inventory_hostname].port }}
 {% else %}
@@ -101,7 +100,6 @@ ServerAdmin root@localhost
 # If your host doesn't have a registered DNS name, enter its IP address here.
 #
 
-ServerName localhost:80
 {% if config[inventory_hostname] is defined %}
 ServerName {{ config[inventory_hostname].servername }}:{{ config[inventory_hostname].port }}
 {% else %}
