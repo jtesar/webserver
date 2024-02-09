@@ -106,7 +106,7 @@ ServerAdmin root@localhost
 
 ServerName localhost:80
 --
-{% if config[ansible_hostname] is defined %}
+{% if config[inventory_hostname] is defined %}
 ServerName {{ config[inventory_hostname].servername }}:{{ config[inventory_hostname].port }}
 {% else %}
 ServerName {{ config['default'].servername }}:{{ config['default'].port }}

@@ -8,7 +8,19 @@
   vars_files:
     - "config.yaml"
   tasks:
-      - name: "Make sure appache is installed"
+      - name: "Make sure apache is installed"
         ansible.builtin.package:
           name: "httpd"
           state: "latest"
+
+      - name: "Open firewall"
+        ansible.posix.firewalld:
+          port: "{{ config[inventory_hostname].port }}/tcp"
+          state: "enabled"
+        when: "config[inventory_hostname].port is defined"
+
+      - name: "Open firewall"
+        ansible.posix.firewalld:
+          port: "{{ config['default'].port }}/tcp"
+          state: "enabled"
+        when: "config[inventory_hostname].port is not defined"
