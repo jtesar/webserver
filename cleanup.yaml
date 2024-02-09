@@ -1,15 +1,6 @@
-- name: "Add failed hosts"
-  hosts: "localhost"
-  gather_facts: false
-  tasks:
-    - include_tasks: "add_hosts.yaml"
-      vars:
-        group_name: "hosts_to_cleanup"
-        host_list: "{{ failed_hosts | default([]) }}"
-
 - name: "Remove and cleanup"
   hosts: 
-    - "hosts_to_cleanup"
+    - "all"
   user: "devops"
   become: true
   become_user: "root"
