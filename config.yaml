@@ -1,7 +1,7 @@
 config:
   default:
     port: 80
-    servername: "{{ ansible_fqdn }}:80"
+    servername: "{{ ansible_fqdn }}"
   web1:
     port: 8080
     servername: "web1.example.com"

@@ -1,5 +1,5 @@
 - name: "Install the apache webserver"
-  hosts:
+  hosts: 
     - "all"
   user: "devops"
   become: true
@@ -8,7 +8,6 @@
   vars_files:
     - "config.yaml"
   tasks:
-    - block:
       - name: "Make sure apache is installed"
         ansible.builtin.package:
           name: "httpd"
@@ -25,8 +24,3 @@
           port: "{{ config['default'].port }}/tcp"
           state: "enabled"
         when: "config[inventory_hostname].port is not defined"
-
-      always:
-        - include_tasks: "get_result.yaml"
-          vars:
-            stage: "installation"

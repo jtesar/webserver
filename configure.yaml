@@ -1,15 +1,6 @@
-- name: "Add installed hosts"
-  hosts: "localhost"
-  gather_facts: false
-  tasks:
-    - include_tasks: "add_hosts.yaml"
-      vars:
-        group_name: "hosts_to_configure"
-        host_list: "{{ successfull_hosts }}"
-
 - name: "Configure the apache webserver"
   hosts: 
-    - "hosts_to_configure"
+    - "all"
   user: "devops"
   become: true
   become_user: "root"
@@ -17,7 +8,6 @@
   vars_files:
     - "config.yaml"
   tasks:
-    - block:
       - name: "Deploy configuration file"
         ansible.builtin.template:
           src: "httpd.conf.j2"
@@ -33,7 +23,3 @@
           name: "httpd"
           enabled: true
           state: "started"
-      always:
-        - include_tasks: "get_result.yaml"
-          vars:
-            stage: "configuration"

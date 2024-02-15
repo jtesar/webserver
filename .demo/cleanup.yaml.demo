@@ -12,7 +12,7 @@
 --
   tasks:
       - name: "Stop the apache webserver"
-        service:
+        ansible.builtin.service:
           name: "httpd"
           state: "stopped"
           enabled: false
@@ -43,7 +43,7 @@
 --
 
       - name: "Remove content"
-        file:
+        ansible.builtin.file:
           state: "absent"
           path: "/var/www/html"
 --
