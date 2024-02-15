@@ -1,3 +1,12 @@
+- name: "Add failed hosts"
+  hosts: "localhost"
+  gather_facts: false
+  tasks:
+    - include_tasks: "add_hosts.yaml"
+      vars:
+        group_name: "hosts_to_cleanup"
+        host_list: "{{ failed_hosts | default([]) }}"
+
 - name: "Remove and cleanup"
   hosts: 
     - "all"
@@ -10,7 +19,7 @@
     - "config.yaml"
   tasks:
       - name: "Stop the apache webserver"
-        ansible.builtin.service:
+        service:
           name: "httpd"
           state: "stopped"
           enabled: false
@@ -37,8 +46,6 @@
         when: "config[inventory_hostname].port is not defined"
 
       - name: "Remove content"
-        ansible.builtin.file:
+        file:
           state: "absent"
           path: "/var/www/html"
-      - fail:
-        ignore_errors: false
