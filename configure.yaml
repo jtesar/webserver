@@ -17,6 +17,7 @@
   vars_files:
     - "config.yaml"
   tasks:
+    - block:
       - name: "Deploy configuration file"
         ansible.builtin.template:
           src: "httpd.conf.j2"
