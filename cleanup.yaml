@@ -9,7 +9,7 @@
 
 - name: "Remove and cleanup"
   hosts: 
-    - "all"
+    - "hosts_to_cleanup"
   user: "devops"
   become: true
   become_user: "root"

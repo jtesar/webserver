@@ -9,7 +9,7 @@
 
 - name: "Configure the apache webserver"
   hosts: 
-    - "all"
+    - "hosts_to_configure"
   user: "devops"
   become: true
   become_user: "root"
