@@ -49,5 +49,3 @@
         file:
           state: "absent"
           path: "/var/www/html"
-      - fail:
-        ignore_errors: false

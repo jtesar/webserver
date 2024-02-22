@@ -36,4 +36,4 @@
       always:
         - include_tasks: "get_result.yaml"
           vars:
-            stage: "configuration"
+            stage: "Configuration"

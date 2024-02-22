@@ -29,4 +29,4 @@
       always:
         - include_tasks: "get_result.yaml"
           vars:
-            stage: "installation"
+            stage: "Installation"
